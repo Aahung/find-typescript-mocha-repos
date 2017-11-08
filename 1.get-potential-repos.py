@@ -27,6 +27,6 @@ while current_page <= min(pages, max_page):
 		repos.append(repo)
 	print(len(repos))
 	sleep(5) # Github API has 10r/min limit
-	with open('potential-repos.json', 'w') as f:
+	with open('1.potential-repos.json', 'w') as f:
 		f.write(json.dumps(repos))
 	current_page = current_page + 1
