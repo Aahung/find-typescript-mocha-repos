@@ -1,0 +1,491 @@
+<h1 id="find-repos-in-typescript-tested-using-mocha">Find Repos in TypeScript Tested using Mocha</h1>
+<p>The list was updated at 00:26:03 11/08/17 PST</p>
+<h2 id="requirements">Requirements</h2>
+<div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="ex">pip</span> install requests</code></pre></div>
+<h2 id="repo-list">Repo List</h2>
+<table style="width:17%;">
+<colgroup>
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Repo</th>
+<th>Stars</th>
+<th>Test Script</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/Microsoft/vscode">Microsoft/vscode</a></td>
+<td>37550</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/ReactiveX/rxjs">ReactiveX/rxjs</a></td>
+<td>9060</td>
+<td><code>cross-env TS_NODE_FAST=true mocha --compilers ts:ts-node/register --opts spec/support/coverage.opts &quot;spec/**/*-spec.ts&quot;</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/nexe/nexe">nexe/nexe</a></td>
+<td>3707</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/palantir/tslint">palantir/tslint</a></td>
+<td>2524</td>
+<td><code>npm-run-all test:pre -p test:mocha test:rules</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/nestjs/nest">nestjs/nest</a></td>
+<td>2246</td>
+<td><code>nyc --require ts-node/register mocha src/**/*.spec.ts --reporter spec</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/decaffeinate/decaffeinate">decaffeinate/decaffeinate</a></td>
+<td>2173</td>
+<td><code>mocha 'test/**/*.ts'</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/yortus/asyncawait">yortus/asyncawait</a></td>
+<td>1632</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/mgechev/codelyzer">mgechev/codelyzer</a></td>
+<td>1387</td>
+<td><code>rimraf dist &amp;&amp; tsc &amp;&amp; cp -r test/fixtures dist/test &amp;&amp; mocha dist/test --recursive</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/staltz/xstream">staltz/xstream</a></td>
+<td>1301</td>
+<td><code>npm run lint &amp;&amp; npm run mocha &amp;&amp; npm run doctest</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/michaelgrosner/tribeca">michaelgrosner/tribeca</a></td>
+<td>1280</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Polymer/polymer-bundler">Polymer/polymer-bundler</a></td>
+<td>1219</td>
+<td><code>tsc &amp;&amp; tslint -c tslint.json src/*.ts src/**/*.ts &amp;&amp; mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/s-panferov/awesome-typescript-loader">s-panferov/awesome-typescript-loader</a></td>
+<td>1181</td>
+<td><code>rimraf .test &amp;&amp; mocha --timeout 30000 dist/__test__</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/vuejs/vue-class-component">vuejs/vue-class-component</a></td>
+<td>1141</td>
+<td><code>npm run build &amp;&amp; webpack --config test/webpack.config.js &amp;&amp; mocha test/test.build.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/compodoc/compodoc">compodoc/compodoc</a></td>
+<td>950</td>
+<td><code>cross-env TS_NODE_PROJECT=test/tsconfig.json TS_NODE_DISABLE_WARNINGS=1 nyc mocha --opts test/mocha.opts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Microsoft/vscode-chrome-debug">Microsoft/vscode-chrome-debug</a></td>
+<td>856</td>
+<td><code>mocha --timeout 20000 -s 2000 -u tdd --colors &quot;./out/test/*.test.js&quot;</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/WuTheFWasThat/vimflowy">WuTheFWasThat/vimflowy</a></td>
+<td>805</td>
+<td><code>mocha --opts test/mocha.opts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/cherow/cherow">cherow/cherow</a></td>
+<td>780</td>
+<td><code>mocha test/specs/**/*.ts -R spec --bail</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/vscode-icons/vscode-icons">vscode-icons/vscode-icons</a></td>
+<td>722</td>
+<td><code>nyc -c -x '' mocha ./out/test --recursive</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/gamestdio/colyseus">gamestdio/colyseus</a></td>
+<td>692</td>
+<td><code>mocha --require ts-node/register test/**Test.ts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/angular/dgeni">angular/dgeni</a></td>
+<td>682</td>
+<td><code>mocha --compilers ts:ts-node/register -R spec src/**/*.spec.ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/jaysoo/todomvc-redux-react-typescript">jaysoo/todomvc-redux-react-typescript</a></td>
+<td>506</td>
+<td><code>tsc &amp;&amp; mocha --require test-setup --recursive ./dist/**/__spec__/**/*-spec.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/davidkpiano/xstate">davidkpiano/xstate</a></td>
+<td>499</td>
+<td><code>mocha --require ts-node/register test/**.ts test/**/*.ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/rill-js/rill">rill-js/rill</a></td>
+<td>482</td>
+<td><code>nyc --extension=.ts --include=src/**/*.ts --reporter=lcov --reporter=text-summary npm run mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/simonbengtsson/jsPDF-AutoTable">simonbengtsson/jsPDF-AutoTable</a></td>
+<td>461</td>
+<td><code>mocha --compilers ts:ts-node/register test/*.js || true</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/SierraSoftworks/Iridium">SierraSoftworks/Iridium</a></td>
+<td>459</td>
+<td><code>mocha --opts test/mocha.opts dist/test</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/emilioastarita/lyricfier">emilioastarita/lyricfier</a></td>
+<td>436</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Microsoft/dts-gen">Microsoft/dts-gen</a></td>
+<td>420</td>
+<td><code>mocha bin/tests/test.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/Asana/typed-react">Asana/typed-react</a></td>
+<td>388</td>
+<td><code>istanbul cover _mocha -- --reporter ${MOCHA_REPORTER-nyan} --slow 10 --ui tdd --recursive build/**/*_test.js</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/surf-build/surf">surf-build/surf</a></td>
+<td>347</td>
+<td><code>mocha --compilers ts:ts-node/register ./test/*.ts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/gcanti/fp-ts">gcanti/fp-ts</a></td>
+<td>343</td>
+<td><code>npm run lint &amp;&amp; npm run prettier &amp;&amp; npm run mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/itsFrank/vue-typescript">itsFrank/vue-typescript</a></td>
+<td>336</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/ngParty/ng-metadata">ngParty/ng-metadata</a></td>
+<td>330</td>
+<td><code>mocha ./test/index.ts --require ts-node/register --colors --watch-extensions ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/mgechev/ngrev">mgechev/ngrev</a></td>
+<td>329</td>
+<td><code>electron-mocha app/specs.js.autogenerated --renderer --require source-map-support/register</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/Microsoft/BotFramework-WebChat">Microsoft/BotFramework-WebChat</a></td>
+<td>321</td>
+<td><code>concurrently  &quot;node test/mock_dl/index.js&quot; &quot;mocha test&quot;</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/electron/electron-rebuild">electron/electron-rebuild</a></td>
+<td>316</td>
+<td><code>mocha --compilers ts:ts-node/register ./test/*.ts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/strongloop/loopback-next">strongloop/loopback-next</a></td>
+<td>311</td>
+<td><code>node packages/build/bin/run-nyc npm run mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/vvakame/typescript-formatter">vvakame/typescript-formatter</a></td>
+<td>308</td>
+<td><code>npm run build &amp;&amp; mocha --reporter spec --timeout 20000 --require intelli-espower-loader</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/opentracing/opentracing-javascript">opentracing/opentracing-javascript</a></td>
+<td>295</td>
+<td><code>mocha lib/test/unittest.js --check-leaks --color</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/williamngan/pts">williamngan/pts</a></td>
+<td>293</td>
+<td><code>mocha --opts mocha.opts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/FinNLP/en-inflectors">FinNLP/en-inflectors</a></td>
+<td>281</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/coinbase/gdax-tt">coinbase/gdax-tt</a></td>
+<td>264</td>
+<td><code>yarn run lint &amp;&amp; yarn run test:mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/gcanti/io-ts">gcanti/io-ts</a></td>
+<td>239</td>
+<td><code>npm run prettier &amp;&amp; npm run lint &amp;&amp; npm run typings-checker &amp;&amp; npm run mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/felixfbecker/vscode-php-debug">felixfbecker/vscode-php-debug</a></td>
+<td>239</td>
+<td><code>mocha out/test --timeout 20000 --slow 1000 --retries 4</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/frankwallis/plugin-typescript">frankwallis/plugin-typescript</a></td>
+<td>236</td>
+<td><code>mocha --require ./test/environment --timeout 10000 ./test/*.ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/steelsojka/lodash-decorators">steelsojka/lodash-decorators</a></td>
+<td>234</td>
+<td><code>mocha --opts mocha.opts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/RxJS-CN/RxJS-Docs-CN">RxJS-CN/RxJS-Docs-CN</a></td>
+<td>230</td>
+<td><code>npm-run-all clean_spec build_spec test_mocha clean_spec</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/YousefED/typescript-json-schema">YousefED/typescript-json-schema</a></td>
+<td>220</td>
+<td><code>npm run build &amp;&amp; mocha -t 5000 --require source-map-support/register test</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/spiffcode/ghedit">spiffcode/ghedit</a></td>
+<td>217</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Polymer/prpl-server-node">Polymer/prpl-server-node</a></td>
+<td>214</td>
+<td><code>npm run build &amp;&amp; mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/line/line-bot-sdk-nodejs">line/line-bot-sdk-nodejs</a></td>
+<td>208</td>
+<td><code>API_BASE_URL=http://localhost:1234/ TEST_PORT=1234 TS_NODE_CACHE=0 mocha -r ts-node/register test/*.spec.ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/zekelevu/typeframework">zekelevu/typeframework</a></td>
+<td>202</td>
+<td><code>mocha -R spec test/integration</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/duniter/duniter">duniter/duniter</a></td>
+<td>196</td>
+<td><code>nyc --reporter html mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/SpoonX/wetland">SpoonX/wetland</a></td>
+<td>190</td>
+<td><code>mocha dist/test/helper dist/test/unit/**</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/ethanresnick/json-api">ethanresnick/json-api</a></td>
+<td>188</td>
+<td><code>export NODE_ENV=testing; mocha --compilers ts:ts-node/register --recursive test/unit/**/*.ts test/integration/**/**/*.ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/lukeautry/tsoa">lukeautry/tsoa</a></td>
+<td>185</td>
+<td><code>cross-env NODE_ENV=test mocha **/*.spec.ts --compilers ts:ts-node/register</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/cbowdon/TsMonad">cbowdon/TsMonad</a></td>
+<td>184</td>
+<td><code>mocha lib/test</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/mgechev/aspect.js">mgechev/aspect.js</a></td>
+<td>179</td>
+<td><code>tsc &amp;&amp; mocha -R nyan ./dist/test/**/*.spec.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/stardustjs/stardust-core">stardustjs/stardust-core</a></td>
+<td>179</td>
+<td><code>mocha test</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/apollographql/persistgraphql">apollographql/persistgraphql</a></td>
+<td>178</td>
+<td><code>mocha --reporter spec --full-trace lib/test/tests.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/liangzeng/cqrs">liangzeng/cqrs</a></td>
+<td>177</td>
+<td><code>tsc &amp;&amp; mocha --require source-map-support/register dist/test &amp;&amp; node example/main.js</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Polymer/polyserve">Polymer/polyserve</a></td>
+<td>169</td>
+<td><code>npm run build &amp;&amp; mocha &amp;&amp; tslint &quot;src/**/*.ts&quot;</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/brentlintner/synt">brentlintner/synt</a></td>
+<td>169</td>
+<td><code>globstar -- _mocha &quot;test/spec/**/*.coffee&quot;</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/staltz/html-looks-like">staltz/html-looks-like</a></td>
+<td>163</td>
+<td><code>npm run lint &amp;&amp; npm run mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/SweetIQ/schemats">SweetIQ/schemats</a></td>
+<td>160</td>
+<td><code>npm run lint &amp;&amp; npm run build &amp;&amp; npm run dependency-check &amp;&amp; mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Polymer/polymer-analyzer">Polymer/polymer-analyzer</a></td>
+<td>158</td>
+<td><code>npm run clean &amp;&amp; npm run build &amp;&amp; npm run lint &amp;&amp; mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/felixfbecker/iterare">felixfbecker/iterare</a></td>
+<td>157</td>
+<td><code>mocha -r source-map-support/register lib/**/*.test.js</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/HerringtonDarkholme/av-ts">HerringtonDarkholme/av-ts</a></td>
+<td>157</td>
+<td><code>mocha dist/test.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/anandanand84/technicalindicators">anandanand84/technicalindicators</a></td>
+<td>153</td>
+<td><code>mocha --compilers js:babel-register --require babel-polyfill</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/jedmao/eclint">jedmao/eclint</a></td>
+<td>152</td>
+<td><code>nyc npm run mocha -- --reporter lcov --reporter spec</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/Microsoft/vscode-cordova">Microsoft/vscode-cordova</a></td>
+<td>151</td>
+<td><code>node ./node_modules/mocha/bin/mocha --recursive -u bdd ./out/test/debugger</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/firebase/firebase-functions">firebase/firebase-functions</a></td>
+<td>144</td>
+<td><code>mocha .tmp/spec/index.spec.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/sourcegraph/javascript-typescript-langserver">sourcegraph/javascript-typescript-langserver</a></td>
+<td>139</td>
+<td><code>mocha --require source-map-support/register --timeout 7000 --slow 2000 lib/test/**/*.js</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/biesbjerg/ngx-translate-extract">biesbjerg/ngx-translate-extract</a></td>
+<td>137</td>
+<td><code>mocha -r ts-node/register tests/**/*.spec.ts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/hayjs/hay">hayjs/hay</a></td>
+<td>135</td>
+<td><code>yarn run lint &amp;&amp; TS_NODE_PROJECT=tsconfig.test.json mocha --compilers ts:ts-node/register</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/PolymerLabs/polylint">PolymerLabs/polylint</a></td>
+<td>133</td>
+<td><code>bower install &amp;&amp; node_modules/.bin/jshint test &amp;&amp; node_modules/.bin/mocha test/test.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/davidkpiano/flipping">davidkpiano/flipping</a></td>
+<td>132</td>
+<td><code>mocha -r ts-node/register test/**.test.ts</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Tyriar/node-pty">Tyriar/node-pty</a></td>
+<td>129</td>
+<td><code>cross-env NODE_ENV=test mocha -R spec lib/*.test.js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/cartant/rxjs-spy">cartant/rxjs-spy</a></td>
+<td>125</td>
+<td><code>yarn run lint &amp;&amp; yarn run test:build &amp;&amp; yarn run test:karma &amp;&amp; yarn run test:mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/JumpFm/jumpfm">JumpFm/jumpfm</a></td>
+<td>124</td>
+<td><code>mocha js</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/Romakita/ts-express-decorators">Romakita/ts-express-decorators</a></td>
+<td>116</td>
+<td><code>npm run clean &amp;&amp; npm run tsc &amp;&amp; npm run tslint &amp;&amp; NODE_ENV=test nyc --reporter=html --reporter=text _mocha --recursive</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/calidion/vig">calidion/vig</a></td>
+<td>114</td>
+<td><code>npm run build &amp;&amp; nyc --reporter=text --reporter=html --reporter=lcov mocha --bail --compilers ts:ts-node/register --recursive 'test/**/*.test.ts'</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/chenhaozhi/Cpage.js">chenhaozhi/Cpage.js</a></td>
+<td>114</td>
+<td><code>mocha -r ./node_modules/ts-node/register test/**/*_spec.ts --reporter mochawesome</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/Microsoft/vscode-ios-web-debug">Microsoft/vscode-ios-web-debug</a></td>
+<td>113</td>
+<td><code>node ./node_modules/mocha/bin/mocha --recursive -u tdd ./out/test/</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/Microsoft/vscode-node-debug">Microsoft/vscode-node-debug</a></td>
+<td>111</td>
+<td><code>mocha --timeout 10000 -u tdd ./out/tests/</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/rhysd/neovim-component">rhysd/neovim-component</a></td>
+<td>109</td>
+<td><code>mocha test/unit/ --exit</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/rangle/typed-immutable-record">rangle/typed-immutable-record</a></td>
+<td>107</td>
+<td><code>npm run typings  &amp;&amp; npm run lint &amp;&amp; nyc npm run mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/paulcbetts/spawn-rx">paulcbetts/spawn-rx</a></td>
+<td>106</td>
+<td><code>mocha --compilers ts:ts-node/register ./test/*</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/webshell/materia-server">webshell/materia-server</a></td>
+<td>105</td>
+<td><code>mocha -R spec dist/test/**/*.js</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/mjhea0/typescript-node-api">mjhea0/typescript-node-api</a></td>
+<td>103</td>
+<td><code>mocha --reporter spec --compilers ts:ts-node/register 'test/**/*.test.ts'</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/implydata/plyql">implydata/plyql</a></td>
+<td>101</td>
+<td><code>mocha</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/staltz/easy-ssb-pub">staltz/easy-ssb-pub</a></td>
+<td>96</td>
+<td><code>npm run lint &amp;&amp; npm run mocha</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/mgechev/ngresizable">mgechev/ngresizable</a></td>
+<td>93</td>
+<td><code>mocha --require ts-node/register test/**/*.spec.ts --recursive</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/pana-cc/mocha-typescript">pana-cc/mocha-typescript</a></td>
+<td>92</td>
+<td><code>mocha test.js --opts mocha.opts</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/motorcyclejs/motorcyclejs">motorcyclejs/motorcyclejs</a></td>
+<td>90</td>
+<td><code>northbrook tslint &amp;&amp; northbrook mocha &amp;&amp; northbrook karma</code></td>
+</tr>
+</tbody>
+</table>

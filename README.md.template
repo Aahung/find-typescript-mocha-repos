@@ -1,0 +1,13 @@
+# Find Repos in TypeScript Tested using Mocha
+
+The list was updated at %s
+
+## Requirements
+
+```sh
+pip install requests
+```
+
+## Repo List
+
+%s
