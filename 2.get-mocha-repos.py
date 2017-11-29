@@ -5,11 +5,9 @@ import requests
 from time import sleep
 import math
 import os
+from multiprocessing import Pool
 
-mocha_repos = []
-
-prs = json.loads(open('1.potential-repos.json', 'r').read())
-for pr in prs:
+def _check(pr):
 	package_json_url = 'https://raw.githubusercontent.com/%s/master/package.json' % pr['full_name']
 	cache_path = 'cache/package-json-%s' % pr['name'].replace('/', '--')
 	try:
@@ -30,10 +28,14 @@ for pr in prs:
 			raise None
 		print('[+] %s %s' % (pr['name'], test_script))
 		pr['test_script'] = test_script
-		mocha_repos.append(pr)
+		return true
 	except Exception as e:
 		print('[-] %s' % pr['full_name'])
+		return False
 
-with open('2.mocha-repos.json', 'w') as f:
-	f.write(json.dumps(mocha_repos))
-	
+prs = json.loads(open('1.potential-repos.json', 'r').read())
+
+with Pool(16) as p:
+	mocha_repos = p.map(_check, prs)
+	with open('2.mocha-repos.json', 'w') as f:
+		f.write(json.dumps(mocha_repos))
