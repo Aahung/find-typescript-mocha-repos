@@ -28,14 +28,15 @@ def _check(pr):
 			raise None
 		print('[+] %s %s' % (pr['name'], test_script))
 		pr['test_script'] = test_script
-		return true
+		return pr
 	except Exception as e:
 		print('[-] %s' % pr['full_name'])
-		return False
+		return None
 
 prs = json.loads(open('1.potential-repos.json', 'r').read())
 
 with Pool(16) as p:
 	mocha_repos = p.map(_check, prs)
+	mocha_repos = [pr for pr in mocha_repos if pr is not None]
 	with open('2.mocha-repos.json', 'w') as f:
 		f.write(json.dumps(mocha_repos))
