@@ -1,6 +1,6 @@
 # Find Repos in TypeScript Tested using Mocha
 
-The list was updated at 00:43:49 02/27/18 PST
+The list was updated at 00:43:44 02/28/18 PST
 
 ## Requirements
 
@@ -12,119 +12,119 @@ pip install requests
 
 | Repo | Stars | Test Script |
 | --- | --- | --- |
-| [Microsoft/vscode](https://github.com/Microsoft/vscode) | 44912 | `mocha` | 
-| [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) | 10928 | `cross-env TS_NODE_FAST=true mocha --compilers ts:ts-node/register --opts spec/support/coverage.opts "spec/**/*-spec.ts"` | 
-| [nexe/nexe](https://github.com/nexe/nexe) | 4363 | `mocha` | 
-| [nestjs/nest](https://github.com/nestjs/nest) | 4347 | `nyc --require ts-node/register mocha src/**/*.spec.ts --reporter spec` | 
-| [Microsoft/sqlopsstudio](https://github.com/Microsoft/sqlopsstudio) | 3216 | `mocha` | 
-| [palantir/tslint](https://github.com/palantir/tslint) | 2956 | `npm-run-all test:pre -p test:mocha test:rules` | 
-| [decaffeinate/decaffeinate](https://github.com/decaffeinate/decaffeinate) | 2296 | `mocha 'test/**/*.ts'` | 
-| [michaelgrosner/tribeca](https://github.com/michaelgrosner/tribeca) | 2221 | `mocha` | 
-| [yortus/asyncawait](https://github.com/yortus/asyncawait) | 1754 | `mocha` | 
-| [mgechev/codelyzer](https://github.com/mgechev/codelyzer) | 1551 | `rimraf dist && tsc && cp -r test/fixtures dist/test && mocha dist/test --recursive` | 
-| [vuejs/vue-class-component](https://github.com/vuejs/vue-class-component) | 1513 | `npm run build && webpack --config test/webpack.config.js && mocha test/test.build.js` | 
-| [staltz/xstream](https://github.com/staltz/xstream) | 1441 | `npm run lint && npm run mocha && npm run doctest` | 
-| [s-panferov/awesome-typescript-loader](https://github.com/s-panferov/awesome-typescript-loader) | 1368 | `rimraf .test && mocha --timeout 30000 dist/__test__` | 
-| [compodoc/compodoc](https://github.com/compodoc/compodoc) | 1350 | `./node_modules/.bin/mocha-parallel-tests test` | 
+| [Microsoft/vscode](https://github.com/Microsoft/vscode) | 44991 | `mocha` | 
+| [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) | 10952 | `cross-env TS_NODE_FAST=true mocha --compilers ts:ts-node/register --opts spec/support/coverage.opts "spec/**/*-spec.ts"` | 
+| [nestjs/nest](https://github.com/nestjs/nest) | 4370 | `nyc --require ts-node/register mocha src/**/*.spec.ts --reporter spec` | 
+| [nexe/nexe](https://github.com/nexe/nexe) | 4368 | `mocha` | 
+| [Microsoft/sqlopsstudio](https://github.com/Microsoft/sqlopsstudio) | 3230 | `mocha` | 
+| [palantir/tslint](https://github.com/palantir/tslint) | 2966 | `npm-run-all test:pre -p test:mocha test:rules` | 
+| [decaffeinate/decaffeinate](https://github.com/decaffeinate/decaffeinate) | 2297 | `mocha 'test/**/*.ts'` | 
+| [michaelgrosner/tribeca](https://github.com/michaelgrosner/tribeca) | 2226 | `mocha` | 
+| [yortus/asyncawait](https://github.com/yortus/asyncawait) | 1756 | `mocha` | 
+| [mgechev/codelyzer](https://github.com/mgechev/codelyzer) | 1553 | `rimraf dist && tsc && cp -r test/fixtures dist/test && mocha dist/test --recursive` | 
+| [vuejs/vue-class-component](https://github.com/vuejs/vue-class-component) | 1517 | `npm run build && webpack --config test/webpack.config.js && mocha test/test.build.js` | 
+| [staltz/xstream](https://github.com/staltz/xstream) | 1442 | `npm run lint && npm run mocha && npm run doctest` | 
+| [s-panferov/awesome-typescript-loader](https://github.com/s-panferov/awesome-typescript-loader) | 1375 | `rimraf .test && mocha --timeout 30000 dist/__test__` | 
+| [compodoc/compodoc](https://github.com/compodoc/compodoc) | 1360 | `./node_modules/.bin/mocha-parallel-tests test` | 
 | [Polymer/polymer-bundler](https://github.com/Polymer/polymer-bundler) | 1233 | `tsc && tslint -c tslint.json src/*.ts src/**/*.ts && mocha` | 
+| [davidkpiano/xstate](https://github.com/davidkpiano/xstate) | 1196 | `npm run prettify && mocha --require ts-node/register test/**.ts test/**/*.test.ts` | 
 | [bdash-app/bdash](https://github.com/bdash-app/bdash) | 1172 | `electron-mocha 'test/**/*.test.ts'` | 
-| [davidkpiano/xstate](https://github.com/davidkpiano/xstate) | 1162 | `npm run prettify && mocha --require ts-node/register test/**.ts test/**/*.test.ts` | 
-| [midwayjs/pandora](https://github.com/midwayjs/pandora) | 1099 | `mocha` | 
-| [Microsoft/vscode-chrome-debug](https://github.com/Microsoft/vscode-chrome-debug) | 1011 | `mocha --timeout 20000 -s 2000 -u tdd --colors "./out/test/*.test.js"` | 
+| [midwayjs/pandora](https://github.com/midwayjs/pandora) | 1122 | `mocha` | 
+| [Microsoft/vscode-chrome-debug](https://github.com/Microsoft/vscode-chrome-debug) | 1010 | `mocha --timeout 20000 -s 2000 -u tdd --colors "./out/test/*.test.js"` | 
 | [cherow/cherow](https://github.com/cherow/cherow) | 1008 | `mocha test/**/*.ts` | 
 | [watson-developer-cloud/node-sdk](https://github.com/watson-developer-cloud/node-sdk) | 973 | `nyc mocha test/unit/ test/integration/ && nyc report --reporter=html` | 
-| [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) | 913 | `nyc -c -x '' mocha ./out/test --recursive` | 
-| [gamestdio/colyseus](https://github.com/gamestdio/colyseus) | 853 | `mocha --require ts-node/register test/**Test.ts` | 
+| [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) | 915 | `nyc -c -x '' mocha ./out/test --recursive` | 
+| [gamestdio/colyseus](https://github.com/gamestdio/colyseus) | 857 | `mocha --require ts-node/register test/**Test.ts` | 
 | [WuTheFWasThat/vimflowy](https://github.com/WuTheFWasThat/vimflowy) | 840 | `mocha --opts test/mocha.opts` | 
 | [angular/dgeni](https://github.com/angular/dgeni) | 688 | `mocha --compilers ts:ts-node/register -R spec src/**/*.spec.ts` | 
-| [sveltejs/sapper](https://github.com/sveltejs/sapper) | 665 | `mocha --opts mocha.opts` | 
+| [sveltejs/sapper](https://github.com/sveltejs/sapper) | 668 | `mocha --opts mocha.opts` | 
 | [ripple/ripple-lib](https://github.com/ripple/ripple-lib) | 639 | `nyc mocha` | 
 | [laoqiren/mlhelper](https://github.com/laoqiren/mlhelper) | 629 | `mocha --recursive` | 
-| [mgechev/ngrev](https://github.com/mgechev/ngrev) | 589 | `electron-mocha app/specs.js.autogenerated --renderer --require source-map-support/register` | 
-| [coinbase/gdax-tt](https://github.com/coinbase/gdax-tt) | 586 | `yarn run lint && yarn run test:mocha` | 
-| [hacksparrow/node-easyimage](https://github.com/hacksparrow/node-easyimage) | 568 | `npm run lint && npm run mocha` | 
+| [mgechev/ngrev](https://github.com/mgechev/ngrev) | 590 | `electron-mocha app/specs.js.autogenerated --renderer --require source-map-support/register` | 
+| [coinbase/gdax-tt](https://github.com/coinbase/gdax-tt) | 588 | `yarn run lint && yarn run test:mocha` | 
+| [hacksparrow/node-easyimage](https://github.com/hacksparrow/node-easyimage) | 567 | `npm run lint && npm run mocha` | 
 | [jaysoo/todomvc-redux-react-typescript](https://github.com/jaysoo/todomvc-redux-react-typescript) | 550 | `tsc && mocha --require test-setup --recursive ./dist/**/__spec__/**/*-spec.js` | 
-| [Microsoft/dts-gen](https://github.com/Microsoft/dts-gen) | 534 | `mocha bin/tests/test.js` | 
-| [gcanti/fp-ts](https://github.com/gcanti/fp-ts) | 526 | `npm run lint && npm run prettier && npm run typings && npm run mocha` | 
+| [Microsoft/dts-gen](https://github.com/Microsoft/dts-gen) | 536 | `mocha bin/tests/test.js` | 
+| [gcanti/fp-ts](https://github.com/gcanti/fp-ts) | 529 | `npm run lint && npm run prettier && npm run typings && npm run mocha` | 
 | [simonbengtsson/jsPDF-AutoTable](https://github.com/simonbengtsson/jsPDF-AutoTable) | 525 | `mocha --compilers ts:ts-node/register test/*.js || true` | 
 | [rill-js/rill](https://github.com/rill-js/rill) | 514 | `nyc --extension=.ts --include=src/**/*.ts --reporter=lcov --reporter=text-summary npm run mocha` | 
-| [strongloop/loopback-next](https://github.com/strongloop/loopback-next) | 504 | `node packages/build/bin/run-nyc npm run mocha` | 
-| [emilioastarita/lyricfier](https://github.com/emilioastarita/lyricfier) | 487 | `mocha` | 
+| [strongloop/loopback-next](https://github.com/strongloop/loopback-next) | 505 | `node packages/build/bin/run-nyc npm run mocha` | 
+| [emilioastarita/lyricfier](https://github.com/emilioastarita/lyricfier) | 488 | `mocha` | 
+| [thx/rap2-delos](https://github.com/thx/rap2-delos) | 487 | `cross-env NODE_ENV=development cross-env TEST_MODE=true nyc mocha --exit --reporter nyan` | 
 | [SierraSoftworks/Iridium](https://github.com/SierraSoftworks/Iridium) | 486 | `mocha --opts test/mocha.opts dist/test` | 
-| [thx/rap2-delos](https://github.com/thx/rap2-delos) | 480 | `cross-env NODE_ENV=development cross-env TEST_MODE=true nyc mocha --exit --reporter nyan` | 
 | [43081j/rar.js](https://github.com/43081j/rar.js) | 456 | `npm run build && mocha` | 
-| [mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob) | 449 | `mocha "out/**/*.spec.js" -s 0` | 
-| [incrediblesound/story-graph](https://github.com/incrediblesound/story-graph) | 441 | `_mocha --` | 
-| [alexjlockwood/avocado](https://github.com/alexjlockwood/avocado) | 427 | `./node_modules/.bin/mocha --require ts-node/register ./test/**/*.spec.ts` | 
-| [Microsoft/BotFramework-WebChat](https://github.com/Microsoft/BotFramework-WebChat) | 394 | `concurrently  "node test/mock_dl/index.js" "mocha test" ` | 
-| [gcanti/io-ts](https://github.com/gcanti/io-ts) | 388 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
+| [mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob) | 450 | `mocha "out/**/*.spec.js" -s 0` | 
+| [incrediblesound/story-graph](https://github.com/incrediblesound/story-graph) | 442 | `_mocha --` | 
+| [alexjlockwood/avocado](https://github.com/alexjlockwood/avocado) | 428 | `./node_modules/.bin/mocha --require ts-node/register ./test/**/*.spec.ts` | 
+| [Microsoft/BotFramework-WebChat](https://github.com/Microsoft/BotFramework-WebChat) | 396 | `concurrently  "node test/mock_dl/index.js" "mocha test" ` | 
+| [gcanti/io-ts](https://github.com/gcanti/io-ts) | 391 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
 | [Asana/typed-react](https://github.com/Asana/typed-react) | 386 | `istanbul cover _mocha -- --reporter ${MOCHA_REPORTER-nyan} --slow 10 --ui tdd --recursive build/**/*_test.js` | 
-| [surf-build/surf](https://github.com/surf-build/surf) | 370 | `mocha --compilers ts:ts-node/register ./test/*.ts` | 
-| [opentracing/opentracing-javascript](https://github.com/opentracing/opentracing-javascript) | 370 | `mocha lib/test/unittest.js --check-leaks --color` | 
+| [surf-build/surf](https://github.com/surf-build/surf) | 371 | `mocha --compilers ts:ts-node/register ./test/*.ts` | 
+| [opentracing/opentracing-javascript](https://github.com/opentracing/opentracing-javascript) | 371 | `mocha lib/test/unittest.js --check-leaks --color` | 
 | [electron/electron-rebuild](https://github.com/electron/electron-rebuild) | 359 | `mocha --compilers ts:ts-node/register ./test/*.ts` | 
-| [Romakita/ts-express-decorators](https://github.com/Romakita/ts-express-decorators) | 353 | `npm run clean && npm run tsc && npm run tslint && cross-env NODE_ENV=test nyc --reporter=html --reporter=text _mocha --recursive` | 
-| [williamngan/pts](https://github.com/williamngan/pts) | 351 | `mocha --opts mocha.opts` | 
+| [Romakita/ts-express-decorators](https://github.com/Romakita/ts-express-decorators) | 352 | `npm run clean && npm run tsc && npm run tslint && cross-env NODE_ENV=test nyc --reporter=html --reporter=text _mocha --recursive` | 
 | [RxJS-CN/RxJS-Docs-CN](https://github.com/RxJS-CN/RxJS-Docs-CN) | 351 | `npm-run-all clean_spec build_spec test_mocha clean_spec` | 
+| [williamngan/pts](https://github.com/williamngan/pts) | 350 | `mocha --opts mocha.opts` | 
 | [google/google-auth-library-nodejs](https://github.com/google/google-auth-library-nodejs) | 348 | `nyc mocha build/test` | 
+| [funkia/list](https://github.com/funkia/list) | 347 | `nyc mocha --timeout 5000 --recursive test/*.ts` | 
 | [vvakame/typescript-formatter](https://github.com/vvakame/typescript-formatter) | 346 | `npm run build && mocha --reporter spec --timeout 20000 --require intelli-espower-loader` | 
 | [andrerpena/react-mde](https://github.com/andrerpena/react-mde) | 342 | `mocha --timeout 15000 -r ts-node/register ./test/*Spec.ts` | 
 | [itsFrank/vue-typescript](https://github.com/itsFrank/vue-typescript) | 341 | `mocha` | 
+| [anandanand84/technicalindicators](https://github.com/anandanand84/technicalindicators) | 334 | `mocha --compilers js:babel-register --require keras-js` | 
 | [ngParty/ng-metadata](https://github.com/ngParty/ng-metadata) | 333 | `mocha ./test/index.ts --require ts-node/register --colors --watch-extensions ts` | 
-| [anandanand84/technicalindicators](https://github.com/anandanand84/technicalindicators) | 331 | `mocha --compilers js:babel-register --require keras-js` | 
-| [funkia/list](https://github.com/funkia/list) | 327 | `nyc mocha --timeout 5000 --recursive test/*.ts` | 
-| [davidkpiano/flipping](https://github.com/davidkpiano/flipping) | 322 | `mocha -r ts-node/register test/**.test.ts` | 
-| [steelsojka/lodash-decorators](https://github.com/steelsojka/lodash-decorators) | 310 | `mocha --opts mocha.opts` | 
-| [felixfbecker/vscode-php-debug](https://github.com/felixfbecker/vscode-php-debug) | 286 | `mocha out/test --timeout 20000 --slow 1000 --retries 4` | 
+| [davidkpiano/flipping](https://github.com/davidkpiano/flipping) | 326 | `mocha -r ts-node/register test/**.test.ts` | 
+| [steelsojka/lodash-decorators](https://github.com/steelsojka/lodash-decorators) | 312 | `mocha --opts mocha.opts` | 
+| [felixfbecker/vscode-php-debug](https://github.com/felixfbecker/vscode-php-debug) | 288 | `mocha out/test --timeout 20000 --slow 1000 --retries 4` | 
 | [FinNLP/en-inflectors](https://github.com/FinNLP/en-inflectors) | 282 | `mocha` | 
-| [YousefED/typescript-json-schema](https://github.com/YousefED/typescript-json-schema) | 273 | `npm run build && mocha -t 5000 --require source-map-support/register test` | 
+| [YousefED/typescript-json-schema](https://github.com/YousefED/typescript-json-schema) | 274 | `npm run build && mocha -t 5000 --require source-map-support/register test` | 
 | [arangodb/arangojs](https://github.com/arangodb/arangojs) | 270 | `mocha --growl --reporter spec --require source-map-support/register --require core-js/shim --timeout 10000 lib/cjs/test` | 
 | [line/line-bot-sdk-nodejs](https://github.com/line/line-bot-sdk-nodejs) | 260 | `API_BASE_URL=http://localhost:1234/ TEST_PORT=1234 TS_NODE_CACHE=0 mocha -r ts-node/register test/*.spec.ts` | 
 | [cdonohue/polychrome](https://github.com/cdonohue/polychrome) | 259 | `mocha --compilers js:babel-register test/**/*.js` | 
+| [lukeautry/tsoa](https://github.com/lukeautry/tsoa) | 258 | `cross-env NODE_ENV=test mocha **/*.spec.ts --compilers ts:ts-node/register` | 
 | [Polymer/prpl-server-node](https://github.com/Polymer/prpl-server-node) | 255 | `npm run build && mocha` | 
-| [lukeautry/tsoa](https://github.com/lukeautry/tsoa) | 255 | `cross-env NODE_ENV=test mocha **/*.spec.ts --compilers ts:ts-node/register` | 
 | [frankwallis/plugin-typescript](https://github.com/frankwallis/plugin-typescript) | 244 | `mocha --require ./test/environment --timeout 10000 ./test/*.ts` | 
 | [pact-foundation/pact-js](https://github.com/pact-foundation/pact-js) | 243 | `nyc --check-coverage --reporter=html --reporter=text-summary mocha` | 
 | [spiffcode/ghedit](https://github.com/spiffcode/ghedit) | 234 | `mocha` | 
 | [sourcegraph/javascript-typescript-langserver](https://github.com/sourcegraph/javascript-typescript-langserver) | 226 | `mocha --require source-map-support/register --timeout 7000 --slow 2000 lib/test/**/*.js` | 
-| [apollographql/persistgraphql](https://github.com/apollographql/persistgraphql) | 222 | `mocha --reporter spec --full-trace lib/test/tests.js` | 
-| [duniter/duniter](https://github.com/duniter/duniter) | 220 | `nyc --reporter html mocha` | 
-| [chenhaozhi/Cpage.js](https://github.com/chenhaozhi/Cpage.js) | 219 | `mocha -r ./node_modules/ts-node/register test/**/*_spec.ts --reporter mochawesome` | 
-| [firebase/firebase-functions](https://github.com/firebase/firebase-functions) | 212 | `mocha .tmp/spec/index.spec.js` | 
+| [apollographql/persistgraphql](https://github.com/apollographql/persistgraphql) | 223 | `mocha --reporter spec --full-trace lib/test/tests.js` | 
+| [duniter/duniter](https://github.com/duniter/duniter) | 221 | `nyc --reporter html mocha` | 
+| [chenhaozhi/Cpage.js](https://github.com/chenhaozhi/Cpage.js) | 216 | `mocha -r ./node_modules/ts-node/register test/**/*_spec.ts --reporter mochawesome` | 
+| [firebase/firebase-functions](https://github.com/firebase/firebase-functions) | 214 | `mocha .tmp/spec/index.spec.js` | 
 | [SpoonX/wetland](https://github.com/SpoonX/wetland) | 212 | `mocha dist/test/helper dist/test/unit/** --timeout 15000` | 
 | [mgechev/aspect.js](https://github.com/mgechev/aspect.js) | 211 | `tsc && mocha -R nyan ./dist/test/**/*.spec.js` | 
 | [cbowdon/TsMonad](https://github.com/cbowdon/TsMonad) | 205 | `mocha lib/test` | 
 | [cartant/rxjs-spy](https://github.com/cartant/rxjs-spy) | 203 | `yarn run lint && yarn run test:build && yarn run test:karma && yarn run test:mocha` | 
 | [zekelevu/typeframework](https://github.com/zekelevu/typeframework) | 201 | `mocha -R spec test/integration` | 
 | [ethanresnick/json-api](https://github.com/ethanresnick/json-api) | 198 | `export NODE_ENV=testing; mocha --compilers ts:ts-node/register --recursive test/unit/ test/integration/` | 
-| [Polymer/polyserve](https://github.com/Polymer/polyserve) | 192 | `npm run build && mocha && tslint "src/**/*.ts"` | 
+| [Polymer/polyserve](https://github.com/Polymer/polyserve) | 193 | `npm run build && mocha && tslint "src/**/*.ts"` | 
 | [renke/import-sort](https://github.com/renke/import-sort) | 190 | `mocha --require ts-node/register --recursive "packages/*/test/**/*.ts"` | 
-| [biesbjerg/ngx-translate-extract](https://github.com/biesbjerg/ngx-translate-extract) | 186 | `mocha -r ts-node/register tests/**/*.spec.ts` | 
+| [biesbjerg/ngx-translate-extract](https://github.com/biesbjerg/ngx-translate-extract) | 187 | `mocha -r ts-node/register tests/**/*.spec.ts` | 
 | [stardustjs/stardust-core](https://github.com/stardustjs/stardust-core) | 186 | `mocha test` | 
-| [SweetIQ/schemats](https://github.com/SweetIQ/schemats) | 183 | `npm run lint && npm run build && npm run dependency-check && mocha` | 
+| [SweetIQ/schemats](https://github.com/SweetIQ/schemats) | 184 | `npm run lint && npm run build && npm run dependency-check && mocha` | 
 | [Microsoft/vscode-cordova](https://github.com/Microsoft/vscode-cordova) | 183 | `node ./node_modules/mocha/bin/mocha --recursive -u bdd ./out/test/debugger` | 
-| [GoogleChrome/chrome-launcher](https://github.com/GoogleChrome/chrome-launcher) | 178 | `mocha --require ts-node/register --reporter=dot test/**/*-test.ts --timeout=10000` | 
+| [GoogleChrome/chrome-launcher](https://github.com/GoogleChrome/chrome-launcher) | 179 | `mocha --require ts-node/register --reporter=dot test/**/*-test.ts --timeout=10000` | 
 | [Tyriar/node-pty](https://github.com/Tyriar/node-pty) | 173 | `cross-env NODE_ENV=test mocha -R spec lib/*.test.js` | 
 | [brentlintner/synt](https://github.com/brentlintner/synt) | 172 | `globstar -- _mocha "test/spec/**/*.coffee"` | 
 | [HerringtonDarkholme/av-ts](https://github.com/HerringtonDarkholme/av-ts) | 171 | `mocha dist/test.js` | 
 | [JumpFm/jumpfm](https://github.com/JumpFm/jumpfm) | 170 | `mocha js` | 
-| [Polymer/polymer-analyzer](https://github.com/Polymer/polymer-analyzer) | 166 | `npm run clean && npm run build && npm run lint && mocha` | 
 | [jedmao/eclint](https://github.com/jedmao/eclint) | 165 | `nyc npm run mocha -- --reporter lcov --reporter spec` | 
+| [Polymer/polymer-analyzer](https://github.com/Polymer/polymer-analyzer) | 165 | `npm run clean && npm run build && npm run lint && mocha` | 
 | [staltz/html-looks-like](https://github.com/staltz/html-looks-like) | 165 | `npm run lint && npm run mocha` | 
 | [felixfbecker/iterare](https://github.com/felixfbecker/iterare) | 163 | `mocha -r source-map-support/register lib/**/*.test.js` | 
 | [scopsy/node-typescript-starter](https://github.com/scopsy/node-typescript-starter) | 161 | `tsc && mocha dist/**/*.spec.js` | 
 | [championswimmer/vuex-persist](https://github.com/championswimmer/vuex-persist) | 144 | `node_modules/.bin/_mocha --require ts-node/register test/**/*.ts` | 
-| [staltz/easy-ssb-pub](https://github.com/staltz/easy-ssb-pub) | 136 | `npm run lint && npm run mocha` | 
+| [staltz/easy-ssb-pub](https://github.com/staltz/easy-ssb-pub) | 137 | `npm run lint && npm run mocha` | 
 | [googlearchive/polylint](https://github.com/googlearchive/polylint) | 133 | `bower install && node_modules/.bin/jshint test && node_modules/.bin/mocha test/test.js` | 
 | [stipsan/scroll-into-view-if-needed](https://github.com/stipsan/scroll-into-view-if-needed) | 131 | `cypress run --browser chrome --reporter junit --reporter-options 'mochaFile=junit/test-results.xml'` | 
 | [Urigo/angular-meteor-base](https://github.com/Urigo/angular-meteor-base) | 129 | `TEST_BROWSER_DRIVER=phantomjs meteor test --driver-package=ardatan:mocha` | 
+| [Microsoft/vscode-node-debug](https://github.com/Microsoft/vscode-node-debug) | 124 | `mocha --timeout 10000 -u tdd ./out/tests/` | 
 | [rangle/typed-immutable-record](https://github.com/rangle/typed-immutable-record) | 123 | `npm run typings  && npm run lint && nyc npm run mocha` | 
-| [Microsoft/vscode-node-debug](https://github.com/Microsoft/vscode-node-debug) | 123 | `mocha --timeout 10000 -u tdd ./out/tests/` | 
 | [calidion/vig](https://github.com/calidion/vig) | 121 | `npm run build && nyc --reporter=text --reporter=html --reporter=lcov mocha --bail --compilers ts:ts-node/register --recursive 'test/**/*.test.ts'` | 
 | [Microsoft/vscode-ios-web-debug](https://github.com/Microsoft/vscode-ios-web-debug) | 121 | `node ./node_modules/mocha/bin/mocha --recursive -u tdd ./out/test/` | 
 | [rhysd/neovim-component](https://github.com/rhysd/neovim-component) | 120 | `mocha test/unit/ --exit` | 
 | [RisingStack/node-typescript-starter](https://github.com/RisingStack/node-typescript-starter) | 119 | `tsc && mocha dist/**/*.spec.js` | 
 | [thiagobustamante/typescript-rest](https://github.com/thiagobustamante/typescript-rest) | 117 | `cross-env NODE_ENV=test mocha` | 
-| [pana-cc/mocha-typescript](https://github.com/pana-cc/mocha-typescript) | 115 | `mocha test.js --opts mocha.opts` | 
+| [pana-cc/mocha-typescript](https://github.com/pana-cc/mocha-typescript) | 116 | `mocha test.js --opts mocha.opts` | 
 | [danvk/localturk](https://github.com/danvk/localturk) | 113 | `mocha --require ts-node/register test/**/*.ts` | 
 | [dividab/tsconfig-paths](https://github.com/dividab/tsconfig-paths) | 113 | `mocha` | 
 | [bmewburn/intelephense](https://github.com/bmewburn/intelephense) | 112 | `mocha -r ts-node/register test/*.ts` | 
@@ -132,40 +132,40 @@ pip install requests
 | [ohjames/rxjs-websockets](https://github.com/ohjames/rxjs-websockets) | 112 | `npm run build && npm run mocha` | 
 | [implydata/plyql](https://github.com/implydata/plyql) | 112 | `mocha` | 
 | [SharePoint/office365-cli](https://github.com/SharePoint/office365-cli) | 111 | `nyc -r=lcov -r=text mocha "dist/**/*.spec.js"` | 
-| [paulcbetts/spawn-rx](https://github.com/paulcbetts/spawn-rx) | 110 | `mocha --compilers ts:ts-node/register ./test/*` | 
+| [paulcbetts/spawn-rx](https://github.com/paulcbetts/spawn-rx) | 111 | `mocha --compilers ts:ts-node/register ./test/*` | 
 | [webshell/materia-server](https://github.com/webshell/materia-server) | 105 | `mocha -R spec dist/test/**/*.js` | 
 | [mgechev/ngresizable](https://github.com/mgechev/ngresizable) | 105 | `mocha --require ts-node/register test/**/*.spec.ts --recursive` | 
 | [Azure/azure-functions-pack](https://github.com/Azure/azure-functions-pack) | 102 | `npm run build && mocha --compilers ts:ts-node/register --recursive test/**/*-spec.ts` | 
 | [Goyoo/node-k8s-client](https://github.com/Goyoo/node-k8s-client) | 101 | `mocha test` | 
 | [square/babel-codemod](https://github.com/square/babel-codemod) | 101 | `mocha "test/**/*Test.js"` | 
+| [whitecolor/yalc](https://github.com/whitecolor/yalc) | 99 | `mocha test` | 
 | [pocesar/node-stratum](https://github.com/pocesar/node-stratum) | 98 | `node ./node_modules/typescript/bin/tsc -p tests.json && mocha test` | 
 | [nspragg/filehound](https://github.com/nspragg/filehound) | 98 | `mocha -r ts-node/register test/*.ts` | 
-| [whitecolor/yalc](https://github.com/whitecolor/yalc) | 97 | `mocha test` | 
 | [AzureAD/azure-activedirectory-library-for-nodejs](https://github.com/AzureAD/azure-activedirectory-library-for-nodejs) | 97 | `npm run tsc && mocha -R spec --ui tdd test` | 
+| [funkia/hareactive](https://github.com/funkia/hareactive) | 96 | `nyc mocha --recursive test/**/*.ts` | 
 | [prh/prh](https://github.com/prh/prh) | 96 | `npm run build && mocha --reporter spec --require intelli-espower-loader` | 
 | [Urigo/meteor-rxjs](https://github.com/Urigo/meteor-rxjs) | 96 | `cd tests && meteor test --driver-package practicalmeteor:mocha` | 
-| [funkia/hareactive](https://github.com/funkia/hareactive) | 95 | `nyc mocha --recursive test/**/*.ts` | 
 | [ConquestArrow/dtsmake](https://github.com/ConquestArrow/dtsmake) | 94 | `mocha --compilers ts:ts-node/register test/*.ts` | 
-| [microsoftgraph/msgraph-sdk-javascript](https://github.com/microsoftgraph/msgraph-sdk-javascript) | 92 | `mocha lib/spec/core` | 
-| [motorcyclejs/motorcyclejs](https://github.com/motorcyclejs/motorcyclejs) | 92 | `northbrook tslint && northbrook mocha && northbrook karma` | 
-| [Glavin001/graphql-sequelize-crud](https://github.com/Glavin001/graphql-sequelize-crud) | 91 | `mocha --require source-map-support/register dist/test` | 
+| [microsoftgraph/msgraph-sdk-javascript](https://github.com/microsoftgraph/msgraph-sdk-javascript) | 93 | `mocha lib/spec/core` | 
+| [motorcyclejs/motorcyclejs](https://github.com/motorcyclejs/motorcyclejs) | 91 | `northbrook tslint && northbrook mocha && northbrook karma` | 
 | [tfoxy/chrome-promise](https://github.com/tfoxy/chrome-promise) | 91 | `mocha && protractor` | 
 | [thomasboyt/manygolf](https://github.com/thomasboyt/manygolf) | 90 | `webpack --config webpack/test.js && mocha --no-colors build/test/test.bundle.js` | 
 | [chbrown/rfc6902](https://github.com/chbrown/rfc6902) | 90 | `istanbul cover _mocha -- tests/ -R spec` | 
+| [Glavin001/graphql-sequelize-crud](https://github.com/Glavin001/graphql-sequelize-crud) | 90 | `mocha --require source-map-support/register dist/test` | 
 | [metaes/metaes](https://github.com/metaes/metaes) | 89 | `tsc; mocha test/truthinessRunner` | 
-| [fabiandev/ts-runtime](https://github.com/fabiandev/ts-runtime) | 88 | `NODE_ENV=test TS_NODE_CACHE=false ./node_modules/mocha/bin/_mocha` | 
+| [fabiandev/ts-runtime](https://github.com/fabiandev/ts-runtime) | 89 | `NODE_ENV=test TS_NODE_CACHE=false ./node_modules/mocha/bin/_mocha` | 
 | [styleguidist/react-docgen-typescript](https://github.com/styleguidist/react-docgen-typescript) | 88 | `tsc && mocha --timeout 10000 ./lib/**/__tests__/**.js` | 
 | [KarlPurk/redux-decorators](https://github.com/KarlPurk/redux-decorators) | 87 | `webpack --env=test > /dev/null && mocha dist/redux-decorators.spec.js` | 
 | [any-json/any-json](https://github.com/any-json/any-json) | 86 | `npm run build && cp -Rf test/fixtures out/test/ && mocha --ui tdd out/test/` | 
+| [rubenspgcavalcante/webpack-chrome-extension-reloader](https://github.com/rubenspgcavalcante/webpack-chrome-extension-reloader) | 86 | `NODE_ENV=test webpack && mocha dist/tests.js` | 
 | [palantir/typesettable](https://github.com/palantir/typesettable) | 84 | `npm-run-all build test:mocha test:coverage lint` | 
-| [rubenspgcavalcante/webpack-chrome-extension-reloader](https://github.com/rubenspgcavalcante/webpack-chrome-extension-reloader) | 84 | `NODE_ENV=test webpack && mocha dist/tests.js` | 
 | [Microsoft/BotFramework-DirectLineJS](https://github.com/Microsoft/BotFramework-DirectLineJS) | 83 | `mocha test` | 
-| [Microsoft/vscode-vsce](https://github.com/Microsoft/vscode-vsce) | 83 | `gulp compile && mocha` | 
+| [Microsoft/TypeScript-TmLanguage](https://github.com/Microsoft/TypeScript-TmLanguage) | 83 | `mocha --full-trace tests/test.js` | 
 | [palantir/react-layered-chart](https://github.com/palantir/react-layered-chart) | 83 | `mocha 'test/**/*.ts' && tslint --project tsconfig.json` | 
-| [Microsoft/TypeScript-TmLanguage](https://github.com/Microsoft/TypeScript-TmLanguage) | 82 | `mocha --full-trace tests/test.js` | 
+| [Microsoft/vscode-vsce](https://github.com/Microsoft/vscode-vsce) | 83 | `gulp compile && mocha` | 
+| [InCar/ali-mns](https://github.com/InCar/ali-mns) | 82 | `node node_modules/mocha/bin/mocha` | 
 | [loon-project/loon](https://github.com/loon-project/loon) | 82 | `npm run tsc && npm run lint && NODE_ENV=test nyc --reporter=html --reporter=text _mocha --recursive` | 
 | [neon-bindings/neon-cli](https://github.com/neon-bindings/neon-cli) | 82 | `npm run transpile && mocha dist/neon-cli-test/acceptance` | 
-| [InCar/ali-mns](https://github.com/InCar/ali-mns) | 81 | `node node_modules/mocha/bin/mocha` | 
 | [toolness/p5.js-widget](https://github.com/toolness/p5.js-widget) | 81 | `webpack && mocha-phantomjs test/index.html` | 
 | [structured-log/structured-log](https://github.com/structured-log/structured-log) | 80 | `mocha --compilers ts:ts-node/register -r src/polyfills/objectAssign.js test/**/*.spec.ts` | 
 | [shlomiassaf/ngc-webpack](https://github.com/shlomiassaf/ngc-webpack) | 79 | `npm run build-test && ./node_modules/.bin/mocha dist/test/*.spec.js --recursive` | 
@@ -173,31 +173,31 @@ pip install requests
 | [emmanueltouzery/prelude.ts](https://github.com/emmanueltouzery/prelude.ts) | 76 | `rm tests/apidoc-*; tsc && node ./dist/tests/Comments.js && tsc && ./node_modules/mocha/bin/mocha --timeout 60000 ./dist/tests/*.js` | 
 | [philcockfield/storybook-host](https://github.com/philcockfield/storybook-host) | 75 | `./node_modules/mocha/bin/mocha --require ts-node/register --watch-extensions ts,tsx 'src/**/*.test.ts{,x}'` | 
 | [gcanti/monocle-ts](https://github.com/gcanti/monocle-ts) | 74 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
-| [ENikS/LINQ](https://github.com/ENikS/LINQ) | 72 | `mocha test/ --recursive` | 
+| [ENikS/LINQ](https://github.com/ENikS/LINQ) | 73 | `mocha test/ --recursive` | 
 | [cartant/rxjs-tslint-rules](https://github.com/cartant/rxjs-tslint-rules) | 70 | `yarn run lint && yarn run test:build && mocha build/**/*-spec.js` | 
 | [hawx1993/judge](https://github.com/hawx1993/judge) | 69 | `mocha --compilers ts:ts-node/register test/test.ts` | 
 | [Polymer/polymer-editor-service](https://github.com/Polymer/polymer-editor-service) | 69 | `npm run clean && npm run build && mocha && npm run lint` | 
 | [AkashaProject/ipfs-connector](https://github.com/AkashaProject/ipfs-connector) | 68 | `./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha  ./tests.js` | 
 | [Team-CHAD/DevDecks](https://github.com/Team-CHAD/DevDecks) | 68 | `cross-env NODE_ENV=test NODE_PATH=./app BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers ts:ts-node/register --recursive --require ignore-styles ./test/setup.ts test/**/*.spec.ts test/**/*.spec.tsx` | 
 | [jf3096/json-typescript-mapper](https://github.com/jf3096/json-typescript-mapper) | 66 | `mocha ./spec/*.js` | 
+| [felixfbecker/sequelize-decorators](https://github.com/felixfbecker/sequelize-decorators) | 65 | `mocha dist/test` | 
 | [horiuchi/dtsgenerator](https://github.com/horiuchi/dtsgenerator) | 64 | `nyc --extension .ts mocha --compilers ts:ts-node/register` | 
 | [Microsoft/vscode-textmate](https://github.com/Microsoft/vscode-textmate) | 64 | `npm run compile && mocha out/tests/tests` | 
 | [ClickSimply/Nano-SQL](https://github.com/ClickSimply/Nano-SQL) | 64 | `mocha -r ts-node/register tests/index.ts` | 
-| [felixfbecker/sequelize-decorators](https://github.com/felixfbecker/sequelize-decorators) | 64 | `mocha dist/test` | 
+| [tomastrajan/ngx-model](https://github.com/tomastrajan/ngx-model) | 64 | `npm run clean && tslint *.ts && npm run prettier:ci && mocha ./lib/model.test.ts --require ts-node/register` | 
+| [koltyakov/sp-rest-proxy](https://github.com/koltyakov/sp-rest-proxy) | 63 | `ts-node ./test/init && mocha --opts test/mocha.opts || ECHO.` | 
 | [vladotesanovic/typescript-mongoose-express](https://github.com/vladotesanovic/typescript-mongoose-express) | 63 | `mocha` | 
-| [tomastrajan/ngx-model](https://github.com/tomastrajan/ngx-model) | 62 | `npm run clean && tslint *.ts && npm run prettier:ci && mocha ./lib/model.test.ts --require ts-node/register` | 
+| [Half-Shot/matrix-appservice-discord](https://github.com/Half-Shot/matrix-appservice-discord) | 62 | `npm run-script build && mocha --opts test/mocha.opts build/test` | 
 | [indiejames/vscode-clojure-debug](https://github.com/indiejames/vscode-clojure-debug) | 62 | `node ./node_modules/mocha/bin/mocha -u tdd ./out/tests/` | 
 | [bterlson/ecmarkup](https://github.com/bterlson/ecmarkup) | 62 | `mocha` | 
 | [martysweet/cfn-lint](https://github.com/martysweet/cfn-lint) | 62 | `mocha lib/test` | 
+| [gamestdio/colyseus.js](https://github.com/gamestdio/colyseus.js) | 62 | `mocha test/*.ts --require ts-node/register` | 
+| [funkia/jabz](https://github.com/funkia/jabz) | 61 | `nyc mocha --recursive test/**/*.ts` | 
 | [Kode/KodeStudio](https://github.com/Kode/KodeStudio) | 61 | `mocha` | 
-| [koltyakov/sp-rest-proxy](https://github.com/koltyakov/sp-rest-proxy) | 61 | `ts-node ./test/init && mocha --opts test/mocha.opts || ECHO.` | 
+| [wix/rawss](https://github.com/wix/rawss) | 61 | `mocha` | 
 | [JoshGlazebrook/socks](https://github.com/JoshGlazebrook/socks) | 61 | `NODE_ENV=test mocha --recursive --compilers ts:ts-node/register test/**/*.ts` | 
 | [mattlewis92/generator-angular-library](https://github.com/mattlewis92/generator-angular-library) | 61 | `NODE_ENV=test mocha --timeout 300000` | 
 | [emberwatch/ember-language-server](https://github.com/emberwatch/ember-language-server) | 61 | `mocha --require ts-node/register test/*.ts` | 
-| [gamestdio/colyseus.js](https://github.com/gamestdio/colyseus.js) | 61 | `mocha test/*.ts --require ts-node/register` | 
-| [funkia/jabz](https://github.com/funkia/jabz) | 60 | `nyc mocha --recursive test/**/*.ts` | 
-| [wix/rawss](https://github.com/wix/rawss) | 60 | `mocha` | 
-| [Half-Shot/matrix-appservice-discord](https://github.com/Half-Shot/matrix-appservice-discord) | 60 | `npm run-script build && mocha --opts test/mocha.opts build/test` | 
 | [carlansley/swagger2-koa](https://github.com/carlansley/swagger2-koa) | 60 | `npm run build && _mocha $(find build -name '*.spec.js') && npm run lint` | 
 | [teambition/ReactiveDB](https://github.com/teambition/ReactiveDB) | 59 | `npm run lint && NODE_ENV=test tman --mocha spec-js/test/run.js` | 
 | [mysticatea/vue-eslint-parser](https://github.com/mysticatea/vue-eslint-parser) | 59 | `nyc npm run _mocha` | 
@@ -206,22 +206,22 @@ pip install requests
 | [inversify/inversify-express-example](https://github.com/inversify/inversify-express-example) | 59 | `nyc --clean --all --require ts-node/register --require reflect-metadata/Reflect --extension .ts -- mocha --exit --timeout 5000` | 
 | [bradymholt/cRonstrue](https://github.com/bradymholt/cRonstrue) | 57 | `npx mocha --reporter spec --compilers ts:ts-node/register` | 
 | [suksant/sequelize-typescript-examples](https://github.com/suksant/sequelize-typescript-examples) | 57 | `gulp compile && mocha 'build/*/test/**/*.js'` | 
+| [fwouts/codetree](https://github.com/fwouts/codetree) | 57 | `mocha -r ts-node/register src/**/*.spec.ts` | 
+| [nozer/quill-delta-to-html](https://github.com/nozer/quill-delta-to-html) | 57 | `./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha --compilers ts:ts-node/register -b "./test/**/*.ts"  ` | 
 | [tycho01/typical](https://github.com/tycho01/typical) | 57 | `tsc | tee tsc.log && mocha lib/**/*.test.js 2>&1 | sed 's/[0-9]\+)/×/g' | tee errors.log` | 
 | [tinganho/node-accept-language](https://github.com/tinganho/node-accept-language) | 57 | `node node_modules/mocha/bin/mocha Build/Tests/Test.js` | 
 | [sudheerj/generator-jhipster-primeng](https://github.com/sudheerj/generator-jhipster-primeng) | 57 | `mocha test/* --timeout 500000` | 
 | [dolanmiu/docx](https://github.com/dolanmiu/docx) | 56 | `mocha-webpack "src/**/*.ts"` | 
-| [fwouts/codetree](https://github.com/fwouts/codetree) | 56 | `mocha -r ts-node/register src/**/*.spec.ts` | 
-| [nozer/quill-delta-to-html](https://github.com/nozer/quill-delta-to-html) | 56 | `./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha --compilers ts:ts-node/register -b "./test/**/*.ts"  ` | 
 | [rohitpaulk/todoist-tribute](https://github.com/rohitpaulk/todoist-tribute) | 55 | `mocha --compilers ts:ts-node/register app/javascript/packs/tests/**/*.ts` | 
+| [jacobbogers/libRmath.js](https://github.com/jacobbogers/libRmath.js) | 55 | `cross-env-shell NODE_ENV=test TS_NODE_DISABLE_WARNINGS=true nyc mocha` | 
 | [gcanti/prop-types-ts](https://github.com/gcanti/prop-types-ts) | 54 | `npm run lint && npm run prettier && npm run mocha` | 
 | [Leanty/tree-gateway](https://github.com/Leanty/tree-gateway) | 54 | `cross-env NODE_ENV=test mocha` | 
-| [jacobbogers/libRmath.js](https://github.com/jacobbogers/libRmath.js) | 54 | `cross-env-shell NODE_ENV=test TS_NODE_DISABLE_WARNINGS=true nyc mocha` | 
+| [cartant/ts-action](https://github.com/cartant/ts-action) | 54 | `yarn run lint && yarn run test:build && mocha ./build/**/*-spec.js` | 
 | [akoenig/gulp-svg2png](https://github.com/akoenig/gulp-svg2png) | 53 | `npm run build && npm run mocha` | 
-| [cartant/ts-action](https://github.com/cartant/ts-action) | 53 | `yarn run lint && yarn run test:build && mocha ./build/**/*-spec.js` | 
+| [flagello/Essence](https://github.com/flagello/Essence) | 53 | `mocha` | 
 | [AlexGalays/spacelift](https://github.com/AlexGalays/spacelift) | 52 | `mocha test/test.js && mocha --ui tdd test/option.js && mocha --ui tdd test/result.js` | 
 | [tunnelvisionlabs/antlr4ts](https://github.com/tunnelvisionlabs/antlr4ts) | 52 | `mocha` | 
 | [apollographql/graphql-document-collector](https://github.com/apollographql/graphql-document-collector) | 52 | `mocha 'lib/**/__tests__/*.js'` | 
-| [flagello/Essence](https://github.com/flagello/Essence) | 52 | `mocha` | 
 | [bougarfaoui/back](https://github.com/bougarfaoui/back) | 51 | `mocha` | 
 | [JBlaak/Express-Torch](https://github.com/JBlaak/Express-Torch) | 51 | `yarn lint && yarn mocha` | 
 | [wikiwi/reassemble](https://github.com/wikiwi/reassemble) | 51 | `cross-env TS_NODE_COMPILER_OPTIONS='{"module":"commonjs"}' mocha --opts mocha.opts` | 
@@ -237,37 +237,38 @@ pip install requests
 | [SomeKittens/gustav](https://github.com/SomeKittens/gustav) | 49 | `mocha dist/test` | 
 | [WasabiFan/ev3dev-lang-js](https://github.com/WasabiFan/ev3dev-lang-js) | 49 | `grunt tsc && ./node_modules/mocha/bin/mocha` | 
 | [SomeKittens/gustav](https://github.com/SomeKittens/gustav) | 49 | `mocha dist/test` | 
+| [JincorTech/backend-ico-dashboard](https://github.com/JincorTech/backend-ico-dashboard) | 48 | `nyc mocha ./src/**/*.spec.ts --require test/prepare.ts` | 
 | [soywiz/atpl.js](https://github.com/soywiz/atpl.js) | 48 | `tsc && ./node_modules/.bin/mocha --ui exports --globals name ` | 
 | [mrmlnc/emitty](https://github.com/mrmlnc/emitty) | 47 | `mocha out/test/{,**/}*.spec.js -s 0` | 
-| [JincorTech/backend-ico-dashboard](https://github.com/JincorTech/backend-ico-dashboard) | 47 | `nyc mocha ./src/**/*.spec.ts --require test/prepare.ts` | 
 | [mrmlnc/vscode-scss](https://github.com/mrmlnc/vscode-scss) | 47 | `mocha out/**/*.spec.js` | 
 | [ryanatkn/ear-sharpener](https://github.com/ryanatkn/ear-sharpener) | 47 | `NODE_ENV=test mocha --require ts-node/register --require ignore-styles --require src/test src/**/*/test.{ts,tsx}` | 
 | [Microsoft/NoSQLProvider](https://github.com/Microsoft/NoSQLProvider) | 47 | `mocha dist/tests/NoSqlProviderTests.js --timeout 5000` | 
 | [Microsoft/monaco-languages](https://github.com/Microsoft/monaco-languages) | 47 | `node_modules/.bin/mocha` | 
 | [Microsoft/vscode-chrome-debug-core](https://github.com/Microsoft/vscode-chrome-debug-core) | 47 | `mocha --recursive -u tdd ./out/test/` | 
 | [EnterpriseJSTutorial/vscode-ts-node-debugging](https://github.com/EnterpriseJSTutorial/vscode-ts-node-debugging) | 47 | `npm run mocha --recursive ./src/**/__tests__/*` | 
+| [Kononnable/typeorm-model-generator](https://github.com/Kononnable/typeorm-model-generator) | 47 | `istanbul cover ./node_modules/mocha/bin/_mocha dist/test/**/*.test.js  -- -R spec` | 
 | [cartant/rxjs-marbles](https://github.com/cartant/rxjs-marbles) | 46 | `yarn run dist && cross-env FAILING=0 yarn run test-ava && cross-env FAILING=0 yarn run test-jasmine && cross-env FAILING=0 yarn run test-jest && cross-env FAILING=0 yarn run test-mocha && cross-env FAILING=0 yarn run test-tape` | 
 | [evansolomon/nodejs-kinesis-client-library](https://github.com/evansolomon/nodejs-kinesis-client-library) | 46 | `npm run lint && mocha` | 
-| [Kononnable/typeorm-model-generator](https://github.com/Kononnable/typeorm-model-generator) | 46 | `istanbul cover ./node_modules/mocha/bin/_mocha dist/test/**/*.test.js  -- -R spec` | 
 | [sketchglass/respass](https://github.com/sketchglass/respass) | 45 | `NODE_ENV=test mocha lib/test` | 
 | [tjson/tjson-js](https://github.com/tjson/tjson-js) | 45 | `mocha --compilers ts:ts-node/register --recursive` | 
 | [rh389/dynamodb-geo.js](https://github.com/rh389/dynamodb-geo.js) | 45 | `mocha --require ts-node/register test/**/*.ts` | 
 | [shlomiassaf/ng-router-loader](https://github.com/shlomiassaf/ng-router-loader) | 44 | `npm run compile_integration && npm run build && ./node_modules/.bin/mocha dist/test spec --recursive` | 
+| [nonoroazoro/vscode-syncing](https://github.com/nonoroazoro/vscode-syncing) | 44 | `mocha` | 
 | [jeswin/basho](https://github.com/jeswin/basho) | 44 | `mocha dist/test/test.js` | 
 | [IBM/Decentralized-Energy-Composer](https://github.com/IBM/Decentralized-Energy-Composer) | 44 | `mocha --recursive -t 4000` | 
 | [Microsoft/vscode-css-languageservice](https://github.com/Microsoft/vscode-css-languageservice) | 44 | `npm run compile && mocha && npm run lint` | 
-| [nonoroazoro/vscode-syncing](https://github.com/nonoroazoro/vscode-syncing) | 43 | `mocha` | 
 | [crescware/walts](https://github.com/crescware/walts) | 42 | `npm run build && mocha --require intelli-espower-loader --reporter dot ./test/test.js` | 
 | [xmlking/koa-router-decorators](https://github.com/xmlking/koa-router-decorators) | 42 | `mocha .tmp/test/**/*.spec.js` | 
 | [rsamec/react-binding](https://github.com/rsamec/react-binding) | 42 | `mocha -R spec ./test` | 
 | [zswang/icity](https://github.com/zswang/icity) | 42 | `istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec` | 
 | [cartant/rxjs-etc](https://github.com/cartant/rxjs-etc) | 41 | `yarn run lint && yarn run test:build && yarn run test:karma && yarn run test:mocha` | 
+| [jvilk/MakeTypes](https://github.com/jvilk/MakeTypes) | 40 | `npm-run-all --serial prepublish generate:test build:test mocha` | 
 | [grantila/fetch-h2](https://github.com/grantila/fetch-h2) | 40 | `node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --bail --check-leaks dist/test` | 
-| [jvilk/MakeTypes](https://github.com/jvilk/MakeTypes) | 39 | `npm-run-all --serial prepublish generate:test build:test mocha` | 
 | [stephenmartindale/kgs-leben](https://github.com/stephenmartindale/kgs-leben) | 39 | `gulp build:tests && mocha --timeout 1000 .build/tests.js` | 
 | [mceachen/exiftool-vendored.js](https://github.com/mceachen/exiftool-vendored.js) | 39 | `nyc mocha --opts .mocha.opts` | 
 | [heimdalljs/heimdalljs-lib](https://github.com/heimdalljs/heimdalljs-lib) | 39 | `yarn run tslint && mocha dist/tests/bundle.cjs --scenario=default && mocha dist/tests/bundle.cjs --scenario=array-fallback` | 
 | [hazelcast/hazelcast-nodejs-client](https://github.com/hazelcast/hazelcast-nodejs-client) | 39 | `mocha --recursive` | 
+| [fuse-box/angular2-example](https://github.com/fuse-box/angular2-example) | 39 | `cross-env TS_NODE_PROJECT=./src/tsconfig.mocha.json mocha --opts ./test/mocha.travis.opts` | 
 | [dirk/hummingbird](https://github.com/dirk/hummingbird) | 38 | `node_modules/.bin/mocha` | 
 | [yagajs/leaflet-ng2](https://github.com/yagajs/leaflet-ng2) | 38 | `npm run lint && npm run transpile && istanbul cover _mocha -- -- test/*.js` | 
 | [ngerakines/express-typescript-sequelize](https://github.com/ngerakines/express-typescript-sequelize) | 38 | `istanbul cover node_modules/mocha/bin/_mocha -x *.spec.js -- --reporter spec` | 
@@ -275,7 +276,6 @@ pip install requests
 | [olosegres/jsona](https://github.com/olosegres/jsona) | 38 | `npm run test-compile && env NODE_ENV=test ts-mocha ./**/*.test.ts` | 
 | [bitjourney/ci-npm-update](https://github.com/bitjourney/ci-npm-update) | 38 | `TS_NODE_PROJECT=test/tsconfig.json mocha --opts test/support/default.opts test/**/*.test.ts` | 
 | [adrien2p/nestjs-sequelize-jwt](https://github.com/adrien2p/nestjs-sequelize-jwt) | 38 | `mocha -r ts-node/register src/**/tests/*.ts` | 
-| [fuse-box/angular2-example](https://github.com/fuse-box/angular2-example) | 38 | `cross-env TS_NODE_PROJECT=./src/tsconfig.mocha.json mocha --opts ./test/mocha.travis.opts` | 
 | [ngParty/ts-helpers](https://github.com/ngParty/ts-helpers) | 38 | `mocha index.test.js` | 
 | [ft-interactive/koa2-typescript-boilerplate](https://github.com/ft-interactive/koa2-typescript-boilerplate) | 38 | `tsc && mocha build/test` | 
 | [rgraphql/soyuz](https://github.com/rgraphql/soyuz) | 38 | `npm run lint && npm run mocha` | 
@@ -289,12 +289,12 @@ pip install requests
 | [kimamula/ts-transformer-keys](https://github.com/kimamula/ts-transformer-keys) | 35 | `tsc && node ./test/compileMain.js && mocha ./test/main.js` | 
 | [brunolm/ts-react-redux-startup](https://github.com/brunolm/ts-react-redux-startup) | 35 | `npm run lint && mocha dist/spec` | 
 | [sebawita/nativescript-angular-cli](https://github.com/sebawita/nativescript-angular-cli) | 35 | `istanbul cover node_modules/mocha/bin/_mocha -- --recursive --reporter spec-xunit-file --require test/test-bootstrap.js --timeout 1000 test/` | 
+| [notoriousb1t/polymorph](https://github.com/notoriousb1t/polymorph) | 35 | `node_modules/.bin/mocha --require ts-node/register --reporter spec ./tests/**/**.ts` | 
 | [vilic/thenfail](https://github.com/vilic/thenfail) | 35 | `mocha && npm run aplus` | 
 | [userpixel/typescript](https://github.com/userpixel/typescript) | 35 | `mocha test` | 
 | [SqrTT/prophet](https://github.com/SqrTT/prophet) | 35 | `node ./node_modules/mocha/bin/mocha -u tdd ./out/tests/` | 
-| [pact-foundation/pact-node](https://github.com/pact-foundation/pact-node) | 35 | `mocha -r ts-node/register -R mocha-unfunk-reporter --timeout 15000 "{src,test,bin}/**/*.spec.ts"` | 
+| [pact-foundation/pact-node](https://github.com/pact-foundation/pact-node) | 35 | `mocha -r ts-node/register -R mocha-unfunk-reporter -t 15000 -s 5000 -b --check-leaks --exit "{src,test,bin}/**/*.spec.ts"` | 
 | [hcnode/koa-cola](https://github.com/hcnode/koa-cola) | 34 | `NODE_ENV=test nyc mocha` | 
-| [notoriousb1t/polymorph](https://github.com/notoriousb1t/polymorph) | 34 | `node_modules/.bin/mocha --require ts-node/register --reporter spec ./tests/**/**.ts` | 
 | [gcanti/elm-ts](https://github.com/gcanti/elm-ts) | 34 | `npm run lint && npm run mocha` | 
 | [nicojs/node-install-local](https://github.com/nicojs/node-install-local) | 34 | `mocha --timeout 10000 test/**/*.js` | 
 | [pimterry/mockttp](https://github.com/pimterry/mockttp) | 34 | `npm run build && npm run test:mocha && npm run test:browser` | 
@@ -306,6 +306,7 @@ pip install requests
 | [Microsoft/vscode-json-languageservice](https://github.com/Microsoft/vscode-json-languageservice) | 32 | `npm run compile && mocha && npm run lint` | 
 | [google/node-gtoken](https://github.com/google/node-gtoken) | 32 | `nyc mocha build/test --timeout 5000 --require source-map-support/register` | 
 | [deerawan/vscode-dash](https://github.com/deerawan/vscode-dash) | 32 | `./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec --ui tdd ./out/test/extension.test.js` | 
+| [just-animate/just-curves](https://github.com/just-animate/just-curves) | 32 | `node_modules/.bin/mocha --require ts-node/register --reporter spec ./tests/**/**.ts` | 
 | [KoteiIto/node-athena](https://github.com/KoteiIto/node-athena) | 31 | `rm -rf coverage && istanbul cover _mocha -- -R spec build/test/*.js` | 
 | [HdrHistogram/HdrHistogramJS](https://github.com/HdrHistogram/HdrHistogramJS) | 31 | `mocha --opts mocha.opts --watch` | 
 | [fyndme/messenger-bot-tester](https://github.com/fyndme/messenger-bot-tester) | 31 | `mocha ./test-build` | 
@@ -315,7 +316,6 @@ pip install requests
 | [redhat-developer/yaml-language-server](https://github.com/redhat-developer/yaml-language-server) | 31 | `mocha --require ts-node/register --ui tdd ./test/*.test.ts` | 
 | [usm4n/cycle-hn](https://github.com/usm4n/cycle-hn) | 31 | `cross-env NODE_ENV=test nyc mocha-webpack --timeout=100000 --colors --webpack-config configs/webpack.config.test.js test/**/*.test.*` | 
 | [marcinnajder/powerseq](https://github.com/marcinnajder/powerseq) | 31 | `mocha ./dist/es6/test -R spec --recursive --timeout 30000` | 
-| [just-animate/just-curves](https://github.com/just-animate/just-curves) | 31 | `node_modules/.bin/mocha --require ts-node/register --reporter spec ./tests/**/**.ts` | 
 | [Quramy/graphql-decorator](https://github.com/Quramy/graphql-decorator) | 31 | `npm run build && npm run lint && mocha lib/**/*.spec.js` | 
 | [sinnerschrader/aem-react-js](https://github.com/sinnerschrader/aem-react-js) | 31 | `npm run build && npm run lint &&  nyc mocha --compilers ts:espower-typescript/guess test/*.js ` | 
 | [aiden/autobot](https://github.com/aiden/autobot) | 31 | `mocha --harmony --require source-map-support/register dist/test --recursive` | 
@@ -324,17 +324,16 @@ pip install requests
 | [Anonyfox/vuex-store-module-example](https://github.com/Anonyfox/vuex-store-module-example) | 30 | `rm -rf dist && tsc -p . && npm run lint && mocha dist/test` | 
 | [tsframework/ts-framework](https://github.com/tsframework/ts-framework) | 30 | `mocha build-test --recursive` | 
 | [mrmlnc/vscode-csscomb](https://github.com/mrmlnc/vscode-csscomb) | 30 | `mocha out/{,**/}*.spec.js -s 0` | 
+| [Fundflow/apollo-redux-form](https://github.com/Fundflow/apollo-redux-form) | 30 | `mocha --reporter spec --full-trace lib/test/tests.js` | 
 | [agea/CmisJS](https://github.com/agea/CmisJS) | 30 | `tsc && mocha dist/**/*.spec.js` | 
 | [igorzg/typeix](https://github.com/igorzg/typeix) | 30 | `npm run compile && mocha build/tests/ --debug --full-trace` | 
 | [wbhob/nest-middlewares](https://github.com/wbhob/nest-middlewares) | 30 | `nyc --require ts-node/register mocha packages/**/*.spec.ts --reporter spec` | 
 | [davetemplin/web-request](https://github.com/davetemplin/web-request) | 30 | `mocha` | 
 | [GoodgameStudios/RobotlegsJS](https://github.com/GoodgameStudios/RobotlegsJS) | 30 | `nyc mocha` | 
 | [imdreamrunner/js-id-number](https://github.com/imdreamrunner/js-id-number) | 30 | `mocha -r ts-node/register src/**/*.spec.ts` | 
-| [Fundflow/apollo-redux-form](https://github.com/Fundflow/apollo-redux-form) | 29 | `mocha --reporter spec --full-trace lib/test/tests.js` | 
 | [nilobarp/text2json](https://github.com/nilobarp/text2json) | 29 | `DEBUG=TP* mocha dist/test/spectrum-tests.js` | 
 | [coderfox/clover](https://github.com/coderfox/clover) | 29 | `nyc mocha` | 
 | [webix-hub/webix-jet](https://github.com/webix-hub/webix-jet) | 29 | `webpack && phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js tests/index.html spec` | 
-| [Fundflow/apollo-redux-form](https://github.com/Fundflow/apollo-redux-form) | 29 | `mocha --reporter spec --full-trace lib/test/tests.js` | 
 | [nilobarp/text2json](https://github.com/nilobarp/text2json) | 29 | `DEBUG=TP* mocha dist/test/spectrum-tests.js` | 
 | [coderfox/clover](https://github.com/coderfox/clover) | 29 | `nyc mocha` | 
 | [webix-hub/webix-jet](https://github.com/webix-hub/webix-jet) | 29 | `webpack && phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js tests/index.html spec` | 
@@ -347,6 +346,8 @@ pip install requests
 | [supergraphql/supergraph](https://github.com/supergraphql/supergraph) | 28 | `nyc mocha ./dist/**/*.spec.js` | 
 | [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscode-stylefmt) | 27 | `mocha out/**/*.spec.js -s 0` | 
 | [gwuhaolin/spring-data-rest-js](https://github.com/gwuhaolin/spring-data-rest-js) | 27 | `tsc & mocha` | 
+| [TrustWallet/trust-ray](https://github.com/TrustWallet/trust-ray) | 27 | `cross-env NODE_ENV=test mocha --require ts-node/register test/**/*.test.ts` | 
+| [MariusAlch/json-to-ts](https://github.com/MariusAlch/json-to-ts) | 27 | `npm run build && mocha ./test/js-integration/index.js && mocha ./build/test` | 
 | [haoliangyu/boundary.now](https://github.com/haoliangyu/boundary.now) | 27 | `mocha test/**/*.test.ts --require ts-node/register --require reflect-metadata` | 
 | [rhysd/fixjson](https://github.com/rhysd/fixjson) | 27 | `mocha test` | 
 | [theia-ide/typescript-language-server](https://github.com/theia-ide/typescript-language-server) | 27 | `mocha --reporter spec "./lib/**/*.spec.js"` | 
@@ -354,15 +355,14 @@ pip install requests
 | [realm/realm-graphql-service](https://github.com/realm/realm-graphql-service) | 26 | `mocha --opts ./mocha.opts` | 
 | [snaptopixel/vuex-ts-decorators](https://github.com/snaptopixel/vuex-ts-decorators) | 26 | `mocha -r source-map-support/register -r ts-node/register -r es6-promise/auto test/**/*.ts` | 
 | [thiagobustamante/typescript-rest-swagger](https://github.com/thiagobustamante/typescript-rest-swagger) | 26 | `cross-env NODE_ENV=test mocha` | 
-| [TrustWallet/trust-ray](https://github.com/TrustWallet/trust-ray) | 26 | `cross-env NODE_ENV=test mocha --require ts-node/register test/**/*.test.ts` | 
-| [MariusAlch/json-to-ts](https://github.com/MariusAlch/json-to-ts) | 26 | `npm run build && mocha ./test/js-integration/index.js && mocha ./build/test` | 
+| [codefoster/waterrower](https://github.com/codefoster/waterrower) | 26 | `mocha test` | 
 | [ktsn/vuetype](https://github.com/ktsn/vuetype) | 26 | `rimraf test/fixtures/*.d.ts && mocha --require espower-typescript/guess test/specs/**/*.ts` | 
 | [paralin/grpc-bus](https://github.com/paralin/grpc-bus) | 26 | `npm run lint && npm run mocha` | 
 | [infinum/mobx-collection-store](https://github.com/infinum/mobx-collection-store) | 26 | `NODE_ENV=test nyc mocha` | 
 | [mseemann/js-restful-express](https://github.com/mseemann/js-restful-express) | 25 | `istanbul cover node_modules/mocha/bin/_mocha --report lcov -x '*.spec.*'  -- -c --check-leaks --require ts-node/register --require core-js --recursive --reporter spec src/**/*.spec.ts` | 
 | [sebsylvester/botbuilder-wit](https://github.com/sebsylvester/botbuilder-wit) | 25 | `nyc --reporter=lcov mocha` | 
+| [localvoid/ndx](https://github.com/localvoid/ndx) | 25 | `./node_modules/.bin/mocha -r ./node_modules/ts-node/register __tests__/index.ts` | 
 | [creeperyang/id3-parser](https://github.com/creeperyang/id3-parser) | 25 | `TS_NODE_PROJECT='test/tsconfig.json' mocha --require ts-node/register 'test/*.spec.ts' --reporter dot` | 
-| [codefoster/waterrower](https://github.com/codefoster/waterrower) | 25 | `mocha test` | 
 | [RobotlegsJS/RobotlegsJS](https://github.com/RobotlegsJS/RobotlegsJS) | 25 | `nyc mocha` | 
 | [ajafff/tsutils](https://github.com/ajafff/tsutils) | 25 | `mocha test/*Tests.js; tslint --test test/rules/*/tslint.json` | 
 | [cybrown/web-decorators](https://github.com/cybrown/web-decorators) | 25 | `npm run build && mocha lib/test --recursive` | 
@@ -370,11 +370,11 @@ pip install requests
 | [wonderful-panda/vue-tsx-support](https://github.com/wonderful-panda/vue-tsx-support) | 24 | `npm-run-all prettier tsc-test mocha` | 
 | [AsynkronIT/protoactor-js](https://github.com/AsynkronIT/protoactor-js) | 24 | `mocha --opts test/mocha.opts -w` | 
 | [DavidDuwaer/Coloquent](https://github.com/DavidDuwaer/Coloquent) | 24 | `mocha -r ts-node/register tests/**/*.test.ts` | 
-| [localvoid/ndx](https://github.com/localvoid/ndx) | 24 | `./node_modules/.bin/mocha -r ./node_modules/ts-node/register __tests__/index.ts` | 
 | [oribella/aurelia-sortable](https://github.com/oribella/aurelia-sortable) | 24 | `nyc mocha --recursive --compilers ts:ts-node/register --require test/setup.ts` | 
 | [TobiahZ/processing-vscode](https://github.com/TobiahZ/processing-vscode) | 24 | `mocha --ui tdd ./out/test/extension.test.js` | 
-| [PeculiarVentures/2key-ratchet](https://github.com/PeculiarVentures/2key-ratchet) | 24 | `mocha out/test` | 
 | [ShieldBattery/node-interval-tree](https://github.com/ShieldBattery/node-interval-tree) | 24 | `mocha -R spec --compilers ts:ts-node/register test/*.ts` | 
+| [PeculiarVentures/2key-ratchet](https://github.com/PeculiarVentures/2key-ratchet) | 24 | `mocha out/test` | 
+| [dubzzz/fast-check](https://github.com/dubzzz/fast-check) | 24 | `npm run build && nyc mocha "test/unit/**/*.spec.ts"` | 
 | [c9s/typeloy](https://github.com/c9s/typeloy) | 24 | `mocha lib/tests` | 
 | [jedmao/postcss-middleware](https://github.com/jedmao/postcss-middleware) | 24 | `gulp && npm run tsc && mocha` | 
 | [AugurProject/augur-node](https://github.com/AugurProject/augur-node) | 24 | `mocha test` | 
@@ -387,31 +387,32 @@ pip install requests
 | [tusharmath/observable-air](https://github.com/tusharmath/observable-air) | 23 | `tsc && mocha` | 
 | [19majkel94/class-transformer-validator](https://github.com/19majkel94/class-transformer-validator) | 23 | `mocha build/tests/index.js` | 
 | [shogogg/ts-option](https://github.com/shogogg/ts-option) | 23 | `mocha --reporter spec --compilers ts:espower-typescript/guess` | 
+| [gcanti/newtype-ts](https://github.com/gcanti/newtype-ts) | 23 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
+| [bespoken/virtual-alexa](https://github.com/bespoken/virtual-alexa) | 23 | `nyc mocha lib/**/*Test.js` | 
 | [palmerabollo/bingspeech-api-client](https://github.com/palmerabollo/bingspeech-api-client) | 23 | `npm run build && mocha -R spec 'lib/**/*.spec.js'` | 
-| [dubzzz/fast-check](https://github.com/dubzzz/fast-check) | 23 | `npm run build && nyc mocha "test/unit/**/*.spec.ts"` | 
 | [darkoverlordofdata/entitas-ts](https://github.com/darkoverlordofdata/entitas-ts) | 23 | `NODE_ENV=test mocha --compilers coffee:coffee-script --require test/test_helper.js --recursive` | 
 | [wafflestudio/snutt](https://github.com/wafflestudio/snutt) | 23 | `tsc -p . && cp -R resources/* dist/ && mocha -r module-alias/register` | 
 | [krisselden/fast-source-map](https://github.com/krisselden/fast-source-map) | 22 | `mocha dist/tests/index.js` | 
-| [nknapp/graphql-typewriter](https://github.com/nknapp/graphql-typewriter) | 22 | `mocha && npm run lint && node ./bin/graphql-typewriter.js` | 
 | [joanllenas/ngx-date-fns](https://github.com/joanllenas/ngx-date-fns) | 22 | `rimraf ./tmp/mocha-webpack && mocha-webpack --opts 'mocha.opts'` | 
+| [nknapp/graphql-typewriter](https://github.com/nknapp/graphql-typewriter) | 22 | `mocha && npm run lint && node ./bin/graphql-typewriter.js` | 
 | [zalando-incubator/authmosphere](https://github.com/zalando-incubator/authmosphere) | 22 | `npm run build && mocha lib/test lib/integration-test --recursive` | 
-| [gcanti/newtype-ts](https://github.com/gcanti/newtype-ts) | 22 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
-| [bespoken/virtual-alexa](https://github.com/bespoken/virtual-alexa) | 22 | `nyc mocha lib/**/*Test.js` | 
+| [willryan/factory.ts](https://github.com/willryan/factory.ts) | 22 | `NODE_ENV=test mocha --require spec/setup.js --require ts-node/register` | 
 | [utopian-io/api.utopian.io](https://github.com/utopian-io/api.utopian.io) | 22 | `cross-env NODE_ENV=test npx mocha --ui bdd --reporter spec --colors --recursive -r ts-node/register tests/index.ts` | 
 | [azu/localstorage-ponyfill](https://github.com/azu/localstorage-ponyfill) | 22 | `mocha` | 
-| [bpowers/sd.js](https://github.com/bpowers/sd.js) | 22 | `tsc -p .tsconfig.test.json && mocha` | 
 | [Stratio/egeo-cli](https://github.com/Stratio/egeo-cli) | 22 | `mocha` | 
+| [bpowers/sd.js](https://github.com/bpowers/sd.js) | 22 | `tsc -p .tsconfig.test.json && mocha` | 
 | [metadevpro/openapi3-ts](https://github.com/metadevpro/openapi3-ts) | 22 | `mocha --recursive --compilers ts:ts-node/register --require source-map-support/register "src/**/*.spec.ts"` | 
 | [glimmerjs/glimmer-application-pipeline](https://github.com/glimmerjs/glimmer-application-pipeline) | 22 | `yarn run problems && mocha dist/tests --recursive` | 
+| [jaystack/odata-v4-server](https://github.com/jaystack/odata-v4-server) | 22 | `nyc mocha --reporter mochawesome --reporter-options reportDir=report,reportName=odata-v4-server,reportTitle="OData V4 Server" src/test/**/*.spec.ts` | 
 | [joesonw/ts-router](https://github.com/joesonw/ts-router) | 22 | `rm -rf test-dist;tsc -p tsconfig.test.json;mocha test-dist/test/*.js --require source-map-support/register` | 
 | [microsoftgraph/msgraph-typescript-typings](https://github.com/microsoftgraph/msgraph-typescript-typings) | 22 | `tsc && mocha spec/` | 
 | [ivarvh/movielistr-backend-ts-ioc](https://github.com/ivarvh/movielistr-backend-ts-ioc) | 21 | `mocha -r ts-node/register test/**/*.spec.ts` | 
 | [JoshGlazebrook/smart-buffer](https://github.com/JoshGlazebrook/smart-buffer) | 21 | `NODE_ENV=test mocha --recursive --compilers ts:ts-node/register test/**/*.ts` | 
 | [forabi/WebCeph](https://github.com/forabi/WebCeph) | 21 | `mocha src/**/*.test.* --compilers ts:ts-node/register,tsx:ts-node/register` | 
-| [willryan/factory.ts](https://github.com/willryan/factory.ts) | 21 | `NODE_ENV=test mocha --require spec/setup.js --require ts-node/register` | 
+| [torch2424/wasmBoy](https://github.com/torch2424/wasmBoy) | 21 | `npm run build && npx mocha --exit` | 
+| [mj1618/serverless-offline-sns](https://github.com/mj1618/serverless-offline-sns) | 21 | `nyc ts-mocha "test/**/*.ts" -p src/` | 
 | [ShyykoSerhiy/spotilocal](https://github.com/ShyykoSerhiy/spotilocal) | 21 | `./node_modules/typescript/bin/tsc && mocha "dist/test/**/*.js"` | 
 | [mulesoft-labs/yaml-ast-parser](https://github.com/mulesoft-labs/yaml-ast-parser) | 21 | `npm run build && mocha --ui tdd dist/test` | 
-| [jaystack/odata-v4-server](https://github.com/jaystack/odata-v4-server) | 21 | `nyc mocha --reporter mochawesome --reporter-options reportDir=report,reportName=odata-v4-server,reportTitle="OData V4 Server" src/test/**/*.spec.ts` | 
 | [rogierschouten/ts-events](https://github.com/rogierschouten/ts-events) | 21 | `./node_modules/.bin/mocha ./dist/test/test-*.js` | 
 | [alexgorbatchev/gulp-print](https://github.com/alexgorbatchev/gulp-print) | 21 | `npm run mocha && npm run tsc && node ./gulp-print.js` | 
 | [akamud/vscode-caniuse](https://github.com/akamud/vscode-caniuse) | 20 | `./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec --ui tdd ./out/test/extension.test.js` | 
@@ -421,7 +422,6 @@ pip install requests
 | [notenoughneon/skein](https://github.com/notenoughneon/skein) | 20 | `mocha build/test` | 
 | [atlassian/nucleus](https://github.com/atlassian/nucleus) | 20 | `mocha --compilers ts:ts-node/register src/**/__spec__/*_spec.ts` | 
 | [tomitrescak/apollo-modules](https://github.com/tomitrescak/apollo-modules) | 20 | `mocha --report lcovonly src/*spec.ts --compilers ts:ts-node/register --bail` | 
-| [mj1618/serverless-offline-sns](https://github.com/mj1618/serverless-offline-sns) | 20 | `nyc ts-mocha "test/**/*.ts" -p src/` | 
 | [lukaaash/sftp-ws](https://github.com/lukaaash/sftp-ws) | 20 | `mocha tests` | 
 | [bertolo1988/saco](https://github.com/bertolo1988/saco) | 20 | `cross-env NODE_ENV=test mocha dist/test --recursive` | 
 | [nefe/intl-format](https://github.com/nefe/intl-format) | 20 | `mocha --compilers ts:ts-node/register test/**/*.ts -R spec` | 
@@ -479,6 +479,7 @@ pip install requests
 | [ynab/ynab-sdk-js](https://github.com/ynab/ynab-sdk-js) | 16 | `npx mocha --reporter spec --require ts-node/register 'test/**/*.ts'` | 
 | [vvakame/commandpost](https://github.com/vvakame/commandpost) | 16 | `npm run build && mocha --reporter spec --timeout 20000 --require intelli-espower-loader` | 
 | [typings/vscode](https://github.com/typings/vscode) | 16 | `mocha` | 
+| [pwa-builder/manifoldjs-site](https://github.com/pwa-builder/manifoldjs-site) | 16 | `mocha --opts mocha.opts` | 
 | [stryker-mutator/stryker-jest-runner](https://github.com/stryker-mutator/stryker-jest-runner) | 16 | `npm run mocha && npm run stryker` | 
 | [poelstra/ts-promise](https://github.com/poelstra/ts-promise) | 16 | `npm run -s lint && npm run -s build && npm run -s mocha` | 
 | [docktitude/docktitude](https://github.com/docktitude/docktitude) | 16 | `mocha tests.js` | 
@@ -492,16 +493,17 @@ pip install requests
 | [lacolaco/light-ts-loader](https://github.com/lacolaco/light-ts-loader) | 15 | `npm run build && node test.js && mocha build` | 
 | [alexeagle/tsetse](https://github.com/alexeagle/tsetse) | 15 | `tsc && mocha built/test/*.js` | 
 | [xiag-ag/typescript-to-json-schema](https://github.com/xiag-ag/typescript-to-json-schema) | 15 | `tsc -p . && mocha -t 10000 --require source-map-support/register --recursive dist/test` | 
-| [thefrenchhouse/spotify-api-graphql-console](https://github.com/thefrenchhouse/spotify-api-graphql-console) | 15 | `mocha --compilers ts:ts-node/register spec/**` | 
 | [ExpeditionRPG/expedition-app](https://github.com/ExpeditionRPG/expedition-app) | 15 | `mocha meta_tests.js && karma start --single-run --browsers PhantomJS` | 
+| [thefrenchhouse/spotify-api-graphql-console](https://github.com/thefrenchhouse/spotify-api-graphql-console) | 15 | `mocha --compilers ts:ts-node/register spec/**` | 
 | [rhysd/node-github-trend](https://github.com/rhysd/node-github-trend) | 15 | `nyc mocha test/` | 
 | [ericwooley/graphql-typeorm-passport-boilerplate](https://github.com/ericwooley/graphql-typeorm-passport-boilerplate) | 15 | `NODE_ENV=test mocha --compilers ts:ts-node/register src/**/*.test.ts` | 
-| [decaffeinate/decaffeinate-parser](https://github.com/decaffeinate/decaffeinate-parser) | 15 | `mocha` | 
 | [endel/memshared](https://github.com/endel/memshared) | 15 | `mocha --require ts-node/register test/*.ts` | 
+| [decaffeinate/decaffeinate-parser](https://github.com/decaffeinate/decaffeinate-parser) | 15 | `mocha` | 
 | [nojvek/noice-json-rpc](https://github.com/nojvek/noice-json-rpc) | 15 | `istanbul cover node_modules/.bin/_mocha -- -R spec out/*.test.js` | 
 | [Polymer/gen-typescript-declarations](https://github.com/Polymer/gen-typescript-declarations) | 15 | `npm run test:setup && npm run build && mocha` | 
 | [fsahmad/typescript-uml](https://github.com/fsahmad/typescript-uml) | 15 | `npm run build && mocha --compilers ts:ts-node/register --recursive 'src/**/*-spec.ts'` | 
 | [cartant/firebase-nightlight](https://github.com/cartant/firebase-nightlight) | 15 | `yarn run lint && yarn run test:build && karma start && mocha build/**/*-spec.js --reporter spec` | 
+| [gcanti/money-ts](https://github.com/gcanti/money-ts) | 15 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
 | [google/google-p12-pem](https://github.com/google/google-p12-pem) | 15 | `mocha build/test` | 
 | [et-studio/et-template](https://github.com/et-studio/et-template) | 15 | `mocha test/**/*_spec.js` | 
 | [Microsoft/node-fast-plist](https://github.com/Microsoft/node-fast-plist) | 15 | `mocha release/test/test` | 
@@ -511,21 +513,19 @@ pip install requests
 | [lostintime/node-typematcher](https://github.com/lostintime/node-typematcher) | 15 | `tsc && mocha "dist/test/"` | 
 | [balmbees/dynamo-typeorm](https://github.com/balmbees/dynamo-typeorm) | 15 | `AWS_REGION=us-east-1 AWS_ACCESS_KEY_ID=mock AWS_SECRET_ACCESS_KEY=mock DYNAMO_TYPES_ENDPOINT=http://127.0.0.1:8000 mocha -t 20000 dst/**/__test__/**/*.js` | 
 | [Webtomizer/typeorm-loader](https://github.com/Webtomizer/typeorm-loader) | 14 | `npm run build && [ -d src/tests ] && NODE_ENV=test mocha -r ts-node/register -r tslib src/tests/test_**.ts` | 
-| [gcanti/fp-ts-routing](https://github.com/gcanti/fp-ts-routing) | 14 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
 | [lhttjdr/xiangqi](https://github.com/lhttjdr/xiangqi) | 14 | `mocha test/**/*.ts` | 
+| [gcanti/fp-ts-routing](https://github.com/gcanti/fp-ts-routing) | 14 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
 | [mstssk/sw2dts](https://github.com/mstssk/sw2dts) | 14 | `mocha test/*.js` | 
 | [jamesknelson/memcord](https://github.com/jamesknelson/memcord) | 14 | `mocha test/*.test.js` | 
 | [gina-system/react-starter](https://github.com/gina-system/react-starter) | 14 | `mocha` | 
 | [gcanti/io-ts-codegen](https://github.com/gcanti/io-ts-codegen) | 14 | `npm run prettier && npm run lint && npm run mocha` | 
+| [voryx/thruway.js](https://github.com/voryx/thruway.js) | 14 | `npm-run-all clean_spec build_spec test_mocha clean_spec` | 
 | [rogalmic/vscode-bash-debug](https://github.com/rogalmic/vscode-bash-debug) | 14 | `mocha -u tdd ./out/tests/` | 
 | [alexanderwe/the-traveler](https://github.com/alexanderwe/the-traveler) | 14 | `nyc mocha` | 
 | [codyjs/express-typescript-ioc](https://github.com/codyjs/express-typescript-ioc) | 14 | `tsc && mocha bin/test` | 
 | [leizongmin/leizm-connect](https://github.com/leizongmin/leizm-connect) | 14 | `npm run lint && mocha` | 
 | [AlexGalays/option.ts](https://github.com/AlexGalays/option.ts) | 14 | `mocha test/test.js --ui tdd` | 
 | [poelstra/ts-stream](https://github.com/poelstra/ts-stream) | 14 | `npm run lint && npm run build && mocha dist/test/test-*.js` | 
-| [gcanti/money-ts](https://github.com/gcanti/money-ts) | 14 | `npm run prettier && npm run lint && npm run typings-checker && npm run mocha` | 
 | [RobinBuschmann/react.di](https://github.com/RobinBuschmann/react.di) | 14 | `mocha` | 
 | [chanlito/simple-todos](https://github.com/chanlito/simple-todos) | 14 | `cross-env NODE_ENV=test nyc mocha --require test/index.ts --opts test/mocha.opts` | 
 | [camesine/Typescript-restful-starter](https://github.com/camesine/Typescript-restful-starter) | 14 | `./node_modules/.bin/_mocha --timeout 20000 ./node_modules/.bin/_ts-node test/TestRouter.ts` | 
-| [OrKoN/typed-messenger-platform](https://github.com/OrKoN/typed-messenger-platform) | 14 | `mocha -r source-map-support/register --exit --recursive dist/test` | 
-| [nkohari/kseq](https://github.com/nkohari/kseq) | 14 | `node_modules/.bin/mocha --compilers ts:ts-node/register test/**/*.ts` | 
